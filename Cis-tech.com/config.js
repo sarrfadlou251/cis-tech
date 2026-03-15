@@ -96,7 +96,7 @@ const PRODUCTS = [
     name: "AirPods 3ème génération",
     price: 8000,
     category: "airpods",
-    image: "pod 3 face.jpg",
+    image: "Cis-tech.com/Images/pod 3 face.jpg",
     description: [
       "AirPods 3ème génération.",
       "• Son haute définition",
