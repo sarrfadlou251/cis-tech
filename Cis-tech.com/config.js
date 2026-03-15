@@ -159,7 +159,7 @@ const PRODUCTS = [
     name: "Lampe LED Selfie",
     price: 9000,
     category: "batterie",
-    image: "lampe led 1.jpg",
+    image: "Cis-tech.com/Images/lampe led 1.jpg",
     description: [
       "Ring Light LED — Éclairage professionnel portable.",
       "• Plusieurs modes de lumière",
