@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>À propos | CIS-TECH</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="Images/logo.jpeg" />
+</head>
+
+<body>
+
+  <header id="header">
+    <div class="header-inner">
+      <button class="menu-btn" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+      <a href="index.html" class="logo" id="logoWrap"></a>
+      <button class="cart-btn" onclick="toggleCart()">
+        🛒 <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-menu" id="mobileMenu">
+    <button class="close-menu" onclick="toggleMenu()">✕</button>
+    <ul>
+      <li><a href="index.html" onclick="toggleMenu()">Accueil</a></li>
+      <li><a href="produits.html" onclick="toggleMenu()">Produits</a></li>
+      <li><a href="collections.html" onclick="toggleMenu()">Collections</a></li>
+      <li><a href="apropos.html" onclick="toggleMenu()">À propos</a></li>
+    </ul>
+  </nav>
+  <div class="menu-overlay" id="menuOverlay" onclick="toggleMenu()"></div>
+
+  <div class="page-hero dark">
+    <div class="container">
+      <p class="breadcrumb light"><a href="index.html">Accueil</a> → À propos</p>
+      <h1 class="page-title light">À propos de<br />Cis Tech</h1>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container apropos-layout">
+
+      <div class="apropos-card">
+        <div class="apropos-logo-big" id="aproposLogo"></div>
+        <h2>CIS-TECH</h2>
+        <p class="apropos-sub">La Technologie à portée de main</p>
+        <p class="apropos-loc">📍 Dakar, Sénégal</p>
+      </div>
+
+      <div class="apropos-details">
+        <div class="apropos-block">
+          <h3>🎯 Notre mission</h3>
+          <p>Rendre la technologie accessible à tous au Sénégal. Des produits de qualité à des prix abordables, livrés
+            directement chez vous à Dakar.</p>
+        </div>
+
+        <div class="apropos-block">
+          <h3>📦 Ce qu'on vous offre</h3>
+          <ul class="offres-list">
+            <li>🎧 <strong>AirPods & audio</strong> — Écouteurs sans fil pour votre quotidien</li>
+            <li>🔋 <strong>Power Banks</strong> — Ne tombez plus jamais en panne de batterie</li>
+            <li>💡 <strong>LED & éclairage</strong> — Des ambiances lumineuses à petit prix</li>
+            <li>📦 <strong>Gadgets & accessoires</strong> — Les dernières tendances tech</li>
+          </ul>
+        </div>
+
+        <div class="apropos-block">
+          <h3>✅ Pourquoi choisir Cis Tech ?</h3>
+          <div class="avantages">
+            <div class="avantage">🚀 Livraison rapide & gratuite</div>
+            <div class="avantage">💬 Commande facile via WhatsApp</div>
+            <div class="avantage">🔒 Paiement à la livraison</div>
+            <div class="avantage">⭐ Produits testés & vérifiés</div>
+          </div>
+        </div>
+
+        <div class="apropos-block">
+          <h3>📞 Nous contacter</h3>
+          <div class="contact-list">
+            <a href="tel:+221776252837" class="contact-item">
+              <span class="contact-icon">📱</span>
+              <span>77-625-28-37</span>
+            </a>
+            <a href="tel:+221761311803" class="contact-item">
+              <span class="contact-icon">📱</span>
+              <span>76-131-18-03</span>
+            </a>
+            <a href="tel:+221764448100" class="contact-item">
+              <span class="contact-icon">📱</span>
+              <span>76-444-81-00</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="apropos-block">
+          <h3>🌐 Réseaux sociaux</h3>
+          <div class="socials">
+            <a href="https://www.tiktok.com/@ciss_tech?_r=1&_t=ZS-94hQTCQxRfo" class="social-btn tiktok">🎵 TikTok</a>
+            <a href="https://www.instagram.com/ciss_tech?igsh=MjM4eHcwNXRucWJq" class="social-btn insta">📸
+              Instagram</a>
+            <a href="https://wa.me/221776252837" target="_blank" class="social-btn wa">💬 WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="cart-overlay" id="cartOverlay" onclick="toggleCart()"></div>
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3>🛒 Mon panier</h3>
+      <button onclick="toggleCart()">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <p class="cart-empty">Votre panier est vide</p>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-total"><span>Total :</span><strong id="cartTotal">0 CFA</strong></div>
+      <button class="whatsapp-btn" onclick="commanderWhatsApp()">Commander sur WhatsApp</button>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      updateCartUI();
+      const logoEl = document.getElementById('aproposLogo');
+      if (STORE_CONFIG.logo) {
+        logoEl.innerHTML = `<img src="${STORE_CONFIG.logo}" alt="CIS-TECH"/>`;
+      } else {
+        logoEl.innerHTML = `<span>C</span>`;
+      }
+    });
+  </script>
+</body>
+
+</html>
