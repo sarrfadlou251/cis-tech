@@ -138,7 +138,7 @@ const PRODUCTS = [
   {
     id: 7,
     name: "Power Bank MagSafe 15000mAh",
-    price: 10000,
+    price: 13000,
     category: "batterie",
     image: "Images/power bank magsafe set.jpeg",
     description: [
@@ -159,7 +159,7 @@ const PRODUCTS = [
     image: "Images/lampe led 1.jpg",
     description: [
       "Ring Light LED — Éclairage professionnel portable.",
-      "• 3 modes de lumière (chaud, neutre, froid)",
+      "• Plusieurs modes de lumière",
       "• Intensité réglable selon tes besoins",
       "• Idéale selfies, TikTok, lives & vidéos",
       "• Compacte, pliable & rechargeable",
