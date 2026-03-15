@@ -17,8 +17,8 @@ const STORE_CONFIG = {
 const COLLECTIONS = [
   { name: "AirPods & casque", category: "airpods", image: "Images/airpods pro2 face.jpg" },
   { name: "Batterie externe & lampe selfie", category: "batterie", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
-  { name: "Divers", category: "divers", image: "Images/divers.jpeg" },
-  { name: "Accessoires", category: "accessoire", image: "Images/ventouse tel.jpg" }
+ // { name: "Divers", category: "divers", image: "Images/divers.jpeg" },
+  //{ name: "Accessoires", category: "accessoire", image: "Images/ventouse tel.jpg" }
 ];
 
 // ─────────────────────────────────────────
@@ -135,22 +135,22 @@ const PRODUCTS = [
       "Plus jamais en panne de batterie !"
     ]
   },
-  {
-    id: 7,
-    name: "Power Bank MagSafe 15000mAh",
-    price: 13000,
-    category: "batterie",
-    image: "Images/power bank magsafe set.jpeg",
-    description: [
-      "Power Bank MagSafe 15000mAh.",
-      "• Charge magnétique sans fil 15W",
-      "• Compatible iPhone MagSafe",
-      "• Port USB-C supplémentaire",
-      "• Design premium ultra fin",
-      "• S'attache directement à ton iPhone",
-      "La charge la plus intelligente du marché."
-    ]
-  },
+  //{
+    //id: 7,
+    //name: "Power Bank MagSafe 15000mAh",
+    //price: 13000,
+    //category: "batterie",
+    //image: "Images/power bank magsafe set.jpeg",
+    //description: [
+     // "Power Bank MagSafe 15000mAh.",
+     // "• Charge magnétique sans fil 15W",
+    //  "• Compatible iPhone MagSafe",
+    //  "• Port USB-C supplémentaire",
+      //"• Design premium ultra fin",
+      //"• S'attache directement à ton iPhone",
+    //  "La charge la plus intelligente du marché."
+   // ]
+//  },
   {
     id: 8,
     name: "Lampe LED Selfie",
