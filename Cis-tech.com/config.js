@@ -96,7 +96,7 @@ const PRODUCTS = [
     name: "AirPods 3ème génération",
     price: 8000,
     category: "airpods",
-    image: "Cis-tech.com/Images/pod 3 face.jpg",
+    image: "Images/pod 3 face.jpg",
     description: [
       "AirPods 3ème génération.",
       "• Son haute définition",
@@ -159,7 +159,7 @@ const PRODUCTS = [
     name: "Lampe LED Selfie",
     price: 9000,
     category: "batterie",
-    image: "Cis-tech.com/Images/lampe led 1.jpg",
+    image: "Images/lampe led 1.jpg",
     description: [
       "Ring Light LED — Éclairage professionnel portable.",
       "• Plusieurs modes de lumière",
