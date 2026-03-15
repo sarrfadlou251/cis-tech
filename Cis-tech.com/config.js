@@ -42,7 +42,8 @@ const PRODUCTS = [
       "• Autonomie exceptionnelle",
       "• Résistance à la transpiration",
       "• Charge rapide & étui compact",
-      "Qualité premium à prix accessible !"
+      "Qualité premium à prix accessible !",
+      "Livraison gratuite à Dakar"
     ]
   },
   {
@@ -57,7 +58,8 @@ const PRODUCTS = [
       "• Son spatial immersif",
       "• Contrôles tactiles intuitifs",
       "• Étui avec charge MagSafe",
-      "L'expérience audio ultime !"
+      "L'expérience audio ultime !",
+      "Livraison gratuite à Dakar"
     ]
   },
   {
@@ -101,7 +103,8 @@ const PRODUCTS = [
       "• Micro intégré ultra clair",
       "• Basses riches & profondes",
       "• Design iconique Apple",
-      "Le classique indémodable."
+      "Le classique indémodable.",
+      "Livraison gratuite à Dakar"
     ]
   },
   {
