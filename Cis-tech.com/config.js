@@ -96,7 +96,7 @@ const PRODUCTS = [
     name: "AirPods 3ème génération",
     price: 8000,
     category: "airpods",
-    image: "https://i.pinimg.com/1200x/61/2e/a1/612ea1a440c5e4290315ef50e84189dd.jpg",
+    image: "pod 3 face.jpg",
     description: [
       "AirPods 3ème génération.",
       "• Son haute définition",
