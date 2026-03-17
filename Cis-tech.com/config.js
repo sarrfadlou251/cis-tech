@@ -141,7 +141,7 @@ const PRODUCTS = [
   //{
     //id: 7,
     //name: "Power Bank MagSafe 15000mAh",
-    //price: 13000,
+    //price: 12000,
     //category: "batterie",
     //image: "Images/power bank magsafe set.jpeg",
     //description: [
@@ -170,7 +170,30 @@ const PRODUCTS = [
     ]
   },
 
-  // ➕ Pour ajouter un nouveau produit, copie ce bloc :
+// {
+  //   id: 9,
+  //   name: "Nom du produit",
+  //   price: 5000,
+  //   category: "airpods",   // airpods | batterie | accessoire | divers
+  //   image: "Images/monfichier.jpg",
+  //   description: [
+  //     "Phrase d'accroche principale.",
+  //     "• Point 1",
+  //     "• Point 2",
+  //     "• Point 3",
+
+// {
+  //   id: 9,
+  //   name: "Nom du produit",
+  //   price: 5000,
+  //   category: "airpods",   // airpods | batterie | accessoire | divers
+  //   image: "Images/monfichier.jpg",
+  //   description: [
+  //     "Phrase d'accroche principale.",
+  //     "• Point 1",
+  //     "• Point 2",
+  //     "• Point 3",
+  
   // {
   //   id: 9,
   //   name: "Nom du produit",
@@ -182,6 +205,96 @@ const PRODUCTS = [
   //     "• Point 1",
   //     "• Point 2",
   //     "• Point 3",
+  // {
+  //   id: 9,
+  //   name: "Nom du produit",
+  //   price: 5000,
+  //   category: "airpods",   // airpods | batterie | accessoire | divers
+  //   image: "Images/monfichier.jpg",
+  //   description: [
+  //     "Phrase d'accroche principale.",
+  //     "• Point 1",
+  //     "• Point 2",
+  //     "• Point 3",
+
+  // {
+  //   id: 9,
+  //   name: "Nom du produit",
+  //   price: 5000,
+  //   category: "airpods",   // airpods | batterie | accessoire | divers
+  //   image: "Images/monfichier.jpg",
+  //   description: [
+  //     "Phrase d'accroche principale.",
+  //     "• Point 1",
+  //     "• Point 2",
+  //     "• Point 3",
+
+  // {
+  //   id: 9,
+  //   name: "Nom du produit",
+  //   price: 5000,
+  //   category: "airpods",   // airpods | batterie | accessoire | divers
+  //   image: "Images/monfichier.jpg",
+  //   description: [
+  //     "Phrase d'accroche principale.",
+  //     "• Point 1",
+  //     "• Point 2",
+  //     "• Point 3",
+
+  // {
+  //   id: 9,
+  //   name: "Nom du produit",
+  //   price: 5000,
+  //   category: "airpods",   // airpods | batterie | accessoire | divers
+  //   image: "Images/monfichier.jpg",
+  //   description: [
+  //     "Phrase d'accroche principale.",
+  //     "• Point 1",
+  //     "• Point 2",
+  //     "• Point 3",
+
+  // {
+  //   id: 9,
+  //   name: "Nom du produit",
+  //   price: 5000,
+  //   category: "airpods",   // airpods | batterie | accessoire | divers
+  //   image: "Images/monfichier.jpg",
+  //   description: [
+  //     "Phrase d'accroche principale.",
+  //     "• Point 1",
+  //     "• Point 2",
+  //     "• Point 3",
+
+  // {
+  //   id: 9,
+  //   name: "Nom du produit",
+  //   price: 5000,
+  //   category: "airpods",   // airpods | batterie | accessoire | divers
+  //   image: "Images/monfichier.jpg",
+  //   description: [
+  //     "Phrase d'accroche principale.",
+  //     "• Point 1",
+  //     "• Point 2",
+  //     "• Point 3",
+
+
+  
+  // ➕ Pour ajouter un nouveau produit, copie ce bloc :
+  // {
+  //   id: ,
+  //   name: "Nom du produit",
+  //   price: 5000,
+  //   category: "airpods",   // airpods | batterie | accessoire | divers
+  //   image: "Images/monfichier.jpg",
+  //   description: [
+  //     "Phrase d'accroche principale.",
+  //     "• Point 1",
+  //     "• Point 2",
+  //     "• Point 3",
+
+
+
+  
   //     "Phrase finale mémorable."
   //   ]
   // },
