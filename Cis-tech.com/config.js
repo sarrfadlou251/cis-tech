@@ -170,24 +170,12 @@ const PRODUCTS = [
     ]
   },
 
-// {
-  //   id: 9,
-  //   name: "Nom du produit",
-  //   price: 5000,
-  //   category: "airpods",   // airpods | batterie | accessoire | divers
-  //   image: "Images/monfichier.jpg",
-  //   description: [
-  //     "Phrase d'accroche principale.",
-  //     "• Point 1",
-  //     "• Point 2",
-  //     "• Point 3",
-
  {
      id: 9,
      name: "Air Pods Pro 3",
      price: 10000,
      category: "airpods",   // airpods | batterie | accessoire | divers
-     image: "",
+     image: "Images/airpods pro3.png",
      description: [
         "Une expérience audio premium avec réduction de bruit avancée et confort optimal.",
     "• Réduction de bruit active pour une immersion totale",
