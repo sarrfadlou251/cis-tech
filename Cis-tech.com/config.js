@@ -182,17 +182,20 @@ const PRODUCTS = [
   //     "• Point 2",
   //     "• Point 3",
 
-// {
-  //   id: 9,
-  //   name: "Nom du produit",
-  //   price: 5000,
-  //   category: "airpods",   // airpods | batterie | accessoire | divers
-  //   image: "Images/monfichier.jpg",
-  //   description: [
-  //     "Phrase d'accroche principale.",
-  //     "• Point 1",
-  //     "• Point 2",
-  //     "• Point 3",
+ {
+     id: 9,
+     name: "Air Pods Pro 3",
+     price: 10000,
+     category: "airpods",   // airpods | batterie | accessoire | divers
+     image: "",
+     description: [
+        "Une expérience audio premium avec réduction de bruit avancée et confort optimal.",
+    "• Réduction de bruit active pour une immersion totale",
+    "• Mode transparence pour rester connecté à votre environnement",
+    "• Autonomie longue durée avec boîtier de charge rapide",
+    "• Qualité sonore haute définition avec basses puissantes"
+        ]
+  },
   
   // {
   //   id: 9,
@@ -205,6 +208,9 @@ const PRODUCTS = [
   //     "• Point 1",
   //     "• Point 2",
   //     "• Point 3",
+   //]
+ // },
+  
   // {
   //   id: 9,
   //   name: "Nom du produit",
