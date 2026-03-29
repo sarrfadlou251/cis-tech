@@ -157,21 +157,38 @@ const PRODUCTS = [
   {
     id: 8,
     name: "Lampe LED Selfie",
-    price: 9000,
+    price: 3500,
     category: "batterie",
-    image: "Images/lampe led 1.jpg",
+    image: "",
     description: [
-      "Ring Light LED — Éclairage professionnel portable.",
-      "• Plusieurs modes de lumière",
+      "L’essentiel pour un bon éclairage.",
+      "• 3 modes de lumière:blanc chaud, jaune, blanc, froid",
       "• Intensité réglable selon tes besoins",
       "• Idéale selfies, TikTok, lives & vidéos",
-      "• Compacte, pliable & rechargeable",
       "Ton studio d'éclairage partout avec toi !"
     ]
   },
 
- {
+    {
      id: 9,
+     name: "Mini Lumière LED RGB avec Pince — Éclairage Portable",
+     price: 5000,
+     category: "batterie",   // airpods | batterie | accessoire | divers
+     image: "",
+     description: [
+       "Lumière LED compacte avec 7 couleurs disponibles : rose, violet, bleu clair, bleu foncé, rouge, beige et blanc. Parfaite pour photos, vidéos, selfies et streaming.",
+       "• Pince universelle robuste",
+       "• Rotule ajustable 360°",
+       "• Design compact & léger",
+       "• Effets lumineux - mode flash",
+       "• Plusieurs couleurs disponibles",
+       "L'éclairage créatif où que vous soyez !"
+   ]
+ },
+  
+
+ {
+     id: 10,
      name: "Air Pods Pro 3",
      price: 10000,
      category: "airpods",   // airpods | batterie | accessoire | divers
@@ -182,25 +199,11 @@ const PRODUCTS = [
     "• Mode transparence pour rester connecté à votre environnement",
     "• Autonomie longue durée avec boîtier de charge rapide",
     "• Qualité sonore haute définition avec basses puissantes"
+         "Phrase finale mémorable."
         ]
   },
   
-  /* {
-     id: 10,
-     name: "Mini Lumière LED RGB avec Pince — Éclairage Portable",
-     price: 5000,
-     category: "batterie",   // airpods | batterie | accessoire | divers
-     image: "Images/monfichier.jpg",
-     description: [
-       "Lumière LED compacte avec 7 couleurs disponibles : rose, violet, bleu clair, bleu foncé, rouge, beige et blanc. Parfaite pour photos, vidéos, selfies et streaming.",
-       "• Pince universelle robuste",
-       "• Rotule ajustable 360°",
-       "• Design compact & léger",
-       "• Design compact & léger",
-       "• Plusieurs couleurs disponibles",
-   ]
- },
-  */
+
   
   /* {
   //   id: 11,
@@ -294,8 +297,4 @@ const PRODUCTS = [
 */
 
 
-  
-  //     "Phrase finale mémorable."
-  //   ]
-  // },
-];
+ 
