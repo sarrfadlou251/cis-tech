@@ -159,7 +159,7 @@ const PRODUCTS = [
     name: "Lampe LED Selfie",
     price: 3500,
     category: "batterie",
-    image: "Images/led horizontal.png",
+    image: "Images/led horizontal .png",
     description: [
       "L’essentiel pour un bon éclairage.",
       "• 3 modes de lumière:blanc chaud, jaune, blanc, froid",
