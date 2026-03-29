@@ -219,7 +219,7 @@ const PRODUCTS = [
 ]
  },
 */
-  
+  //
   // {
   //   id: 9,
   //   name: "Nom du produit",
@@ -296,5 +296,4 @@ const PRODUCTS = [
      "• Point 3",
 */
 //
-
- 
+]; // ← fermeture du tableau PRODUCTS
