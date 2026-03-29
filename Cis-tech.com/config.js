@@ -159,7 +159,7 @@ const PRODUCTS = [
     name: "Lampe LED Selfie",
     price: 3500,
     category: "batterie",
-    image: "",
+    image: "Images/led horizontal.png",
     description: [
       "L’essentiel pour un bon éclairage.",
       "• 3 modes de lumière:blanc chaud, jaune, blanc, froid",
@@ -174,7 +174,7 @@ const PRODUCTS = [
      name: "Mini Lumière LED RGB avec Pince — Éclairage Portable",
      price: 5000,
      category: "batterie",   // airpods | batterie | accessoire | divers
-     image: "",
+     image: "Images/led verticale.png",
      description: [
        "Lumière LED compacte avec 7 couleurs disponibles : rose, violet, bleu clair, bleu foncé, rouge, beige et blanc. Parfaite pour photos, vidéos, selfies et streaming.",
        "• Pince universelle robuste",
