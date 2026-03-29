@@ -198,7 +198,7 @@ const PRODUCTS = [
     "• Réduction de bruit active pour une immersion totale",
     "• Mode transparence pour rester connecté à votre environnement",
     "• Autonomie longue durée avec boîtier de charge rapide",
-    "• Qualité sonore haute définition avec basses puissantes"
+    "• Qualité sonore haute définition avec basses puissantes",
          "Phrase finale mémorable."
         ]
   },
