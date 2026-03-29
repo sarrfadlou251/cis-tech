@@ -185,8 +185,25 @@ const PRODUCTS = [
         ]
   },
   
-  // {
-  //   id: 9,
+  /* {
+     id: 10,
+     name: "Mini Lumière LED RGB avec Pince — Éclairage Portable",
+     price: 5000,
+     category: "batterie",   // airpods | batterie | accessoire | divers
+     image: "Images/monfichier.jpg",
+     description: [
+       "Lumière LED compacte avec 7 couleurs disponibles : rose, violet, bleu clair, bleu foncé, rouge, beige et blanc. Parfaite pour photos, vidéos, selfies et streaming.",
+       "• Pince universelle robuste",
+       "• Rotule ajustable 360°",
+       "• Design compact & léger",
+       "• Design compact & léger",
+       "• Plusieurs couleurs disponibles",
+   ]
+ },
+  */
+  
+  /* {
+  //   id: 11,
   //   name: "Nom du produit",
   //   price: 5000,
   //   category: "airpods",   // airpods | batterie | accessoire | divers
@@ -195,9 +212,10 @@ const PRODUCTS = [
   //     "Phrase d'accroche principale.",
   //     "• Point 1",
   //     "• Point 2",
-  //     "• Point 3",
-   //]
- // },
+       "• Point 3",
+]
+ },
+*/
   
   // {
   //   id: 9,
@@ -259,33 +277,21 @@ const PRODUCTS = [
   //     "• Point 2",
   //     "• Point 3",
 
-  // {
-  //   id: 9,
-  //   name: "Nom du produit",
-  //   price: 5000,
-  //   category: "airpods",   // airpods | batterie | accessoire | divers
-  //   image: "Images/monfichier.jpg",
-  //   description: [
-  //     "Phrase d'accroche principale.",
-  //     "• Point 1",
-  //     "• Point 2",
-  //     "• Point 3",
-
 
   
-  // ➕ Pour ajouter un nouveau produit, copie ce bloc :
-  // {
-  //   id: ,
-  //   name: "Nom du produit",
-  //   price: 5000,
-  //   category: "airpods",   // airpods | batterie | accessoire | divers
-  //   image: "Images/monfichier.jpg",
-  //   description: [
-  //     "Phrase d'accroche principale.",
-  //     "• Point 1",
-  //     "• Point 2",
-  //     "• Point 3",
-
+  /*➕ Pour ajouter un nouveau produit, copie ce bloc :
+   {
+     id: ,
+     name: "Nom du produit",
+     price: 5000,
+     category: "airpods",   // airpods | batterie | accessoire | divers
+     image: "Images/monfichier.jpg",
+     description: [
+       "Phrase d'accroche principale.",
+       "• Point 1",
+       "• Point 2",
+     "• Point 3",
+*/
 
 
   
