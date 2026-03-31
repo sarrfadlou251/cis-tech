@@ -16,8 +16,8 @@ const STORE_CONFIG = {
 // ─────────────────────────────────────────
 const COLLECTIONS = [
   { name: "AirPods & casque", category: "airpods", image: "Images/airpods pro2 face.jpg" },
-  { name: "Batterie externe & lampe selfie", category: "batterie", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
- // { name: "Divers", category: "divers", image: "Images/divers.jpeg" },
+  { name: "Batterie externe ", category: "batterie", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
+  { name: "lampe selfie", category: "led", image: "Images/led verticale.png" },
   //{ name: "Accessoires", category: "accessoire", image: "Images/ventouse tel.jpg" }
 ];
 
@@ -158,7 +158,7 @@ const PRODUCTS = [
     id: 8,
     name: "Lampe LED Selfie",
     price: 3500,
-    category: "batterie",
+    category: "led",
     image: "Images/led horizontal .png",
     description: [
       "L’essentiel pour un bon éclairage.",
@@ -173,7 +173,7 @@ const PRODUCTS = [
      id: 9,
      name: "Mini Lumière LED RGB avec Pince — Éclairage Portable",
      price: 5000,
-     category: "batterie",   // airpods | batterie | accessoire | divers
+     category: "led",   // airpods | batterie | accessoire | divers
      image: "Images/led verticale.png",
      description: [
        "Lumière LED compacte avec 7 couleurs disponibles : rose, violet, bleu clair, bleu foncé, rouge, beige et blanc. Parfaite pour photos, vidéos, selfies et streaming.",
