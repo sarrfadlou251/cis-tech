@@ -203,8 +203,39 @@ const PRODUCTS = [
         ]
   },
   
+/*{
+  id: 11,
+  name: "Coques de Protection AirPods",
+  price: 2000,
+  category: "accessoire",
+  image: "Images/ac noir.jpeg", // image par défaut (ex: couleur transparente)
 
-  
+  variants: [
+    { label: "Transparent", image: "Images/coque-transparent.jpg", color: "#e8e8e8" },
+    { label: "Noir", image: "Images/coque-noir.jpg", color: "#1a1a1a" },
+    { label: "Blanc", image: "Images/coque-blanc.jpg", color: "#f5f5f5" },
+    { label: "Rouge", image: "Images/coque-rouge.jpg", color: "#e63946" },
+    { label: "Bleu", image: "Images/coque-bleu.jpg", color: "#2196f3" },
+    { label: "Vert", image: "Images/coque-vert.jpg", color: "#4caf50" },
+    { label: "Rose", image: "Images/coque-rose.jpg", color: "#f48fb1" },
+    { label: "Violet", image: "Images/coque-violet.jpg", color: "#9c27b0" },
+    { label: "Jaune", image: "Images/coque-jaune.jpg", color: "#ffd600" },
+    { label: "Orange", image: "Images/coque-orange.jpg", color: "#ff6f00" },
+    { label: "Beige", image: "Images/coque-beige.jpg", color: "#d7c4a3" },
+  ],
+
+  description: [
+    "Protège ton étui AirPods avec style.",
+    "• Compatible AirPods 3, AirPods 4 et AirPods Pro 2",
+    "• Silicone souple anti-choc & anti-rayures",
+    "• Accès total aux ports de charge",
+    "• Grip antidérapant — plus de chutes",
+    "• 11 couleurs disponibles au choix",
+    "La protection qui ne compromet pas le style !",
+    "Livraison gratuite à Dakar"
+  ]
+},
+*/  
   /* {
   //   id: 11,
   //   name: "Nom du produit",
