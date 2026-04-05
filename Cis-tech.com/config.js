@@ -285,7 +285,7 @@ const PRODUCTS = [
     "Livraison gratuite à Dakar"
   ]
 },
-*/  
+  
   /* {
   //   id: 11,
   //   name: "Nom du produit",
