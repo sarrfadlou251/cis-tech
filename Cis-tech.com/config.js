@@ -206,7 +206,7 @@ const PRODUCTS = [
 {
   id: 11,
   name: "Coque AirPods 4",
-  price: 2000,
+  price: 1000,
   category: "accessoire",
   image: "https://i.pinimg.com/1200x/08/59/6a/08596afcbb32f7f177c9ac07353d700e.jpg",
   variants: [
@@ -233,7 +233,7 @@ const PRODUCTS = [
 {
   id: 12,
   name: "Coque AirPods Pro 2",
-  price: 2000,
+  price: 1000,
   category: "accessoire",
   image: "https://i.pinimg.com/1200x/0f/da/8f/0fda8f86da584b503809569964a4a39d.jpg",
   variants: [
@@ -262,7 +262,7 @@ const PRODUCTS = [
 {
   id: 13,
   name: "Coque AirPods 3",
-  price: 2000,
+  price: 1000,
   category: "accessoire",
   image: "https://i.pinimg.com/1200x/04/56/09/045609645ff8e98ea46e791342ad7085.jpg",
   variants: [
