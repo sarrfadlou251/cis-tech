@@ -18,7 +18,7 @@ const COLLECTIONS = [
   { name: "AirPods & casque", category: "airpods", image: "Images/airpods pro2 face.jpg" },
   { name: "Batterie externe ", category: "batterie", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
   { name: "lampe selfie", category: "led", image: "Images/led verticale.png" },
-  //{ name: "Accessoires", category: "accessoire", image: "Images/ventouse tel.jpg" }
+  { name: "Accessoires", category: "accessoire", image: "Images/ac noir.jpeg" }
 ];
 
 // ─────────────────────────────────────────
@@ -203,34 +203,84 @@ const PRODUCTS = [
         ]
   },
   
-/*{
+{
   id: 11,
-  name: "Coques de Protection AirPods",
+  name: "Coque Protection — AirPods 4",
   price: 2000,
   category: "accessoire",
-  image: "Images/ac noir.jpeg", // image par défaut (ex: couleur transparente)
-
+  image: "Images/coque-ap4-black.jpg",
   variants: [
-    { label: "Transparent", image: "Images/coque-transparent.jpg", color: "#e8e8e8" },
-    { label: "Noir", image: "Images/coque-noir.jpg", color: "#1a1a1a" },
-    { label: "Blanc", image: "Images/coque-blanc.jpg", color: "#f5f5f5" },
-    { label: "Rouge", image: "Images/coque-rouge.jpg", color: "#e63946" },
-    { label: "Bleu", image: "Images/coque-bleu.jpg", color: "#2196f3" },
-    { label: "Vert", image: "Images/coque-vert.jpg", color: "#4caf50" },
-    { label: "Rose", image: "Images/coque-rose.jpg", color: "#f48fb1" },
-    { label: "Violet", image: "Images/coque-violet.jpg", color: "#9c27b0" },
-    { label: "Jaune", image: "Images/coque-jaune.jpg", color: "#ffd600" },
-    { label: "Orange", image: "Images/coque-orange.jpg", color: "#ff6f00" },
-    { label: "Beige", image: "Images/coque-beige.jpg", color: "#d7c4a3" },
+    { label: "Noir",          image: "Images/coque-ap4-black.jpg",        color: "#1a1a1a" },
+    { label: "Rose",          image: "Images/coque-ap4-pink.jpg",         color: "#f48fb1" },
+    { label: "Violet",        image: "Images/coque-ap4-purple.jpg",       color: "#9c27b0" },
+    { label: "Bleu foncé",    image: "Images/coque-ap4-darkblue.jpg",     color: "#1a237e" },
+    { label: "Blanc",         image: "Images/coque-ap4-white.jpg",        color: "#f5f5f5" },
+    { label: "Gris lavande",  image: "Images/coque-ap4-lavandergray.jpg", color: "#b0a8c8" },
+    { label: "Bleu clair",    image: "Images/coque-ap4-lightblue.jpg",    color: "#90caf9" },
   ],
-
   description: [
-    "Protège ton étui AirPods avec style.",
-    "• Compatible AirPods 3, AirPods 4 et AirPods Pro 2",
+    "Protège ton étui AirPods 4 avec style.",
+    "• Compatible AirPods 4ème génération uniquement",
     "• Silicone souple anti-choc & anti-rayures",
-    "• Accès total aux ports de charge",
+    "• Accès total au port de charge",
     "• Grip antidérapant — plus de chutes",
-    "• 11 couleurs disponibles au choix",
+    "• 7 couleurs disponibles au choix",
+    "La protection qui ne compromet pas le style !",
+    "Livraison gratuite à Dakar"
+  ]
+},
+
+{
+  id: 12,
+  name: "Coque Protection — AirPods Pro 2",
+  price: 2000,
+  category: "accessoire",
+  image: "Images/coque-pro2-black.jpg",
+  variants: [
+    { label: "Noir",         image: "Images/coque-pro2-black.jpg",       color: "#1a1a1a" },
+    { label: "Rose",         image: "Images/coque-pro2-pink.jpg",        color: "#f48fb1" },
+    { label: "Violet",       image: "Images/coque-pro2-purple.jpg",      color: "#9c27b0" },
+    { label: "Bleu foncé",   image: "Images/coque-pro2-darkblue.jpg",    color: "#1a237e" },
+    { label: "Blanc",        image: "Images/coque-pro2-white.jpg",       color: "#f5f5f5" },
+    { label: "Gris lavande", image: "Images/coque-pro2-lavendergray.jpg",color: "#b0a8c8" },
+    { label: "Gris foncé",   image: "Images/coque-pro2-darkgray.jpg",    color: "#424242" },
+    { label: "Beige",        image: "Images/coque-pro2-beige.jpg",       color: "#d7c4a3" },
+    { label: "Bordeaux",     image: "Images/coque-pro2-wine.jpg",        color: "#7b1c2e" },
+  ],
+  description: [
+    "Protège ton étui AirPods Pro 2 avec style.",
+    "• Compatible AirPods Pro 2ème génération uniquement",
+    "• Silicone souple anti-choc & anti-rayures",
+    "• Accès total au port de charge MagSafe",
+    "• Grip antidérapant — plus de chutes",
+    "• 9 couleurs disponibles au choix",
+    "La protection qui ne compromet pas le style !",
+    "Livraison gratuite à Dakar"
+  ]
+},
+
+{
+  id: 13,
+  name: "Coque Protection — AirPods 3",
+  price: 2000,
+  category: "accessoire",
+  image: "Images/coque-ap3-black.jpg",
+  variants: [
+    { label: "Noir",         image: "Images/coque-ap3-black.jpg",       color: "#1a1a1a" },
+    { label: "Rose",         image: "Images/coque-ap3-pink.jpg",        color: "#f48fb1" },
+    { label: "Violet",       image: "Images/coque-ap3-purple.jpg",      color: "#9c27b0" },
+    { label: "Bleu foncé",   image: "Images/coque-ap3-darkblue.jpg",    color: "#1a237e" },
+    { label: "Blanc",        image: "Images/coque-ap3-white.jpg",       color: "#f5f5f5" },
+    { label: "Gris lavande", image: "Images/coque-ap3-lavendergray.jpg",color: "#b0a8c8" },
+    { label: "Bleu clair",   image: "Images/coque-ap3-lightblue.jpg",   color: "#90caf9" },
+  ],
+  description: [
+    "Protège ton étui AirPods 3 avec style.",
+    "• Compatible AirPods 3ème génération uniquement",
+    "• Silicone souple anti-choc & anti-rayures",
+    "• Accès total au port de charge",
+    "• Grip antidérapant — plus de chutes",
+    "• 7 couleurs disponibles au choix",
     "La protection qui ne compromet pas le style !",
     "Livraison gratuite à Dakar"
   ]
