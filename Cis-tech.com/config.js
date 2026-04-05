@@ -210,7 +210,7 @@ const PRODUCTS = [
   category: "accessoire",
   image: "Images/coque-ap4-black.jpg",
   variants: [
-    { label: "Noir",          image: "Images/coque-ap4-black.jpg",        color: "#1a1a1a" },
+    { label: "Noir",          image: "https://i.pinimg.com/1200x/08/59/6a/08596afcbb32f7f177c9ac07353d700e.jpg",        color: "#1a1a1a" },
     { label: "Rose",          image: "Images/coque-ap4-pink.jpg",         color: "#f48fb1" },
     { label: "Violet",        image: "Images/coque-ap4-purple.jpg",       color: "#9c27b0" },
     { label: "Bleu foncé",    image: "Images/coque-ap4-darkblue.jpg",     color: "#1a237e" },
