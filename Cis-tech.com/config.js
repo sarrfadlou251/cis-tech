@@ -285,7 +285,7 @@ const PRODUCTS = [
     "Livraison gratuite à Dakar"
   ]
 },
-   {
+ /*  {
     id: 14,
     name: "Ventouse CIS-TECH",
     price: 1000,
@@ -327,7 +327,7 @@ const PRODUCTS = [
     //  "Livraison gratuite à Dakar"
     ]
   },
-  
+ */ 
   /* {
   //   id: 11,
   //   name: "Nom du produit",
