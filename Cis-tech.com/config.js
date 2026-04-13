@@ -290,7 +290,7 @@ const PRODUCTS = [
     name: "Ventouse CIS-TECH",
     price: 1000,
     category: "accessoire",
-    image: "https://www.pinterest.com/pin/1102256077558620485/",   // image par défaut = première variante
+    image: "",   // image par défaut = première variante
  
     // ─────────────────────────────────────────────────────────
     // 🎨 VARIANTES DE COULEURS
@@ -299,22 +299,21 @@ const PRODUCTS = [
     // color : couleur du cercle de sélection (code hex)
     // ─────────────────────────────────────────────────────────
     variants: [
-      { label: "Jaune",        image: "https://www.pinterest.com/pin/866450415819549801/", color: "#FFD600" },
-      { label: "Orange",       image: "https://i.pinimg.com/1200x/c5/43/97/c543972fadbaeb141e57de10f7e4222a.jpg", color: "#FF6B00" },
-      { label: "Bleu ciel",    image: "https://i.pinimg.com/1200x/a3/32/8b/a3328b4ca90d17733201bc61b5f4d799.jpg", color: "#87CEEB" },
-      { label: "Bleu foncé",   image: "https://i.pinimg.com/originals/f9/2a/83/f92a838c7e60ebca7884c68e114d158f.png", color: "#1A3A6B" },
-      { label: "Lac vert",     image: "https://i.pinimg.com/1200x/e1/10/e3/e110e3be17acd2ffe6d72c0dc92a8788.jpg", color: "#3CB6A8" },
-      { label: "Vert",         image: "https://i.pinimg.com/1200x/a4/ca/31/a4ca314b9d38878235fa7b93f00cd176.jpg", color: "#2E8B57" },
-      { label: "Rose",         image: "https://i.pinimg.com/1200x/82/09/e8/8209e8e6c00bb5247afea7debd0cdd9b.jpg", color: "#FF69B4" },
-      //{ label: "Rose clair",   image: "Images/ventouse tel.jpg", color: "#FFB6C1" },
-      { label: "Rouge",        image: "https://i.pinimg.com/1200x/b6/54/19/b65419df956f4bbd10f806544daf4cad.jpg", color: "#D32F2F" },
-      { label: "Rose foncé",   image: "https://i.pinimg.com/1200x/bc/03/42/bc0342023b10e44b0cc0f935df1e7822.jpg", color: "#C2185B" },
-      { label: "Transparent",  image: "https://i.pinimg.com/1200x/3d/e0/16/3de016b202b05c9a511608e9a09aacbd.jpg", color: "#E8F4F8", border: "#aaa" },
-      { label: "Gris clair",   image: "https://i.pinimg.com/1200x/3a/53/cd/3a53cdc3c924bc14c2839298cdb102ad.jpg", color: "#BDBDBD" },
+      { label: "Jaune",        image: "", color: "#FFD600" },
+      { label: "Orange",       image: "", color: "#FF6B00" },
+      { label: "Bleu ciel",    image: "", color: "#87CEEB" },
+      { label: "Bleu foncé",   image: "", color: "#1A3A6B" },
+      { label: "Lac vert",     image: "", color: "#3CB6A8" },
+      { label: "Vert",         image: "", color: "#2E8B57" },
+      { label: "Rose clair",   image: "", color: "#FFB6C1" },
+      { label: "Rouge",        image: "", color: "#D32F2F" },
+      { label: "Rose foncé",   image: "", color: "#C2185B" },
+      { label: "Transparent",  image: "", color: "#E8F4F8", border: "#aaa" },
+      { label: "Gris clair",   image: "", color: "#BDBDBD" },
      // { label: "Gris foncé",   image: "Images/ventouse tel.jpg", color: "#424242" },
-      { label: "Purple",       image: "https://i.pinimg.com/1200x/e2/6c/38/e26c3819273c6bf6bcdf28593b91b881.jpg", color: "#7B1FA2" },
-      { label: "Noir",         image: "https://i.pinimg.com/736x/c9/c5/46/c9c546f6c39ced2c5b52d14a7b1f0cae.jpg", color: "#111111" },
-      { label: "Blanc",        image: "https://i.pinimg.com/1200x/e7/7c/e2/e77ce271ebbd3522a5fd7f5909cfbfb3.jpg", color: "#F5F5F5", border: "#ccc" },
+      { label: "Purple",       image: "", color: "#7B1FA2" },
+      { label: "Noir",         image: "", color: "#111111" },
+      { label: "Blanc",        image: "", color: "#F5F5F5", border: "#ccc" },
     ],
     description: [
       "Ventouse CIS-TECH — Support téléphone ultra-adhérent.",
