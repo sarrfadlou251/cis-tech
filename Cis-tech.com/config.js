@@ -43,7 +43,7 @@ const PRODUCTS = [
       "• Résistance à la transpiration",
       "• Charge rapide & étui compact",
       "Qualité premium à prix accessible !",
-      "Livraison gratuite à Dakar"
+      "Etuis AirPods de votre choix offert ."
     ]
   },
   {
@@ -59,7 +59,7 @@ const PRODUCTS = [
       "• Contrôles tactiles intuitifs",
       "• Étui avec charge MagSafe",
       "L'expérience audio ultime !",
-      "Livraison gratuite à Dakar"
+      "Etuis AirPods de votre choix offert ."
     ]
   },
   {
@@ -104,7 +104,7 @@ const PRODUCTS = [
       "• Basses riches & profondes",
       "• Design iconique Apple",
       "Le classique indémodable.",
-      "Livraison gratuite à Dakar"
+      "Etuis AirPods de votre choix offert ."
     ]
   },
   {
@@ -199,7 +199,7 @@ const PRODUCTS = [
     "• Mode transparence pour rester connecté à votre environnement",
     "• Autonomie longue durée avec boîtier de charge rapide",
     "• Qualité sonore haute définition avec basses puissantes",
-         "Phrase finale mémorable."
+         "Etuis AirPods de votre choix offert ."
         ]
   },
   
@@ -285,12 +285,12 @@ const PRODUCTS = [
     "Livraison gratuite à Dakar"
   ]
 },
- /*  {
+   {
     id: 14,
     name: "Ventouse CIS-TECH",
     price: 1000,
     category: "accessoire",
-    image: "",   // image par défaut = première variante
+    image: "Images/ventouse tel.jpg",   // image par défaut = première variante
  
     // ─────────────────────────────────────────────────────────
     // 🎨 VARIANTES DE COULEURS
@@ -299,21 +299,21 @@ const PRODUCTS = [
     // color : couleur du cercle de sélection (code hex)
     // ─────────────────────────────────────────────────────────
     variants: [
-      { label: "Jaune",        image: "", color: "#FFD600" },
-      { label: "Orange",       image: "", color: "#FF6B00" },
-      { label: "Bleu ciel",    image: "", color: "#87CEEB" },
-      { label: "Bleu foncé",   image: "", color: "#1A3A6B" },
-      { label: "Lac vert",     image: "", color: "#3CB6A8" },
-      { label: "Vert",         image: "", color: "#2E8B57" },
-      { label: "Rose clair",   image: "", color: "#FFB6C1" },
-      { label: "Rouge",        image: "", color: "#D32F2F" },
-      { label: "Rose foncé",   image: "", color: "#C2185B" },
-      { label: "Transparent",  image: "", color: "#E8F4F8", border: "#aaa" },
-      { label: "Gris clair",   image: "", color: "#BDBDBD" },
+      { label: "Jaune",        image: "Images/ventouse jaune.png", color: "#FFD600" },
+      { label: "Orange",       image: "Images/ventouse orange.png", color: "#FF6B00" },
+      { label: "Bleu ciel",    image: "Images/ventouse bleu clair.png", color: "#87CEEB" },
+      { label: "Bleu foncé",   image: "Images/ventouse bleu marine.png", color: "#1A3A6B" },
+      { label: "Lac vert",     image: "Images/ventouse lac vert.png", color: "#3CB6A8" },
+      { label: "Vert",         image: "Images/ventouse vert.png", color: "#2E8B57" },
+      { label: "Rose clair",   image: "Images/rose clair.png", color: "#FFB6C1" },
+      { label: "Rouge",        image: "Images/ventouse rouge.png", color: "#D32F2F" },
+      { label: "Rose foncé",   image: "Images/ventouse rose foncé.png", color: "#C2185B" },
+      { label: "Transparent",  image: "Images/ventouse transparent.png", color: "#E8F4F8", border: "#aaa" },
+      { label: "Gris clair",   image: "Images/ventouse gris clair.png", color: "#BDBDBD" },
      // { label: "Gris foncé",   image: "Images/ventouse tel.jpg", color: "#424242" },
-      { label: "Purple",       image: "", color: "#7B1FA2" },
-      { label: "Noir",         image: "", color: "#111111" },
-      { label: "Blanc",        image: "", color: "#F5F5F5", border: "#ccc" },
+      { label: "Purple",       image: "Images/ventouse purple.png", color: "#7B1FA2" },
+      { label: "Noir",         image: "Images/ventouse noir.png", color: "#111111" },
+      { label: "Blanc",        image: "Images/ventouse blanc.png", color: "#F5F5F5", border: "#ccc" },
     ],
     description: [
       "Ventouse CIS-TECH — Support téléphone ultra-adhérent.",
@@ -326,7 +326,7 @@ const PRODUCTS = [
     //  "Livraison gratuite à Dakar"
     ]
   },
- */ 
+ 
   /* {
   //   id: 11,
   //   name: "Nom du produit",
