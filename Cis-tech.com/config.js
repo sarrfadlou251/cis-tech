@@ -345,7 +345,7 @@ const PRODUCTS = [
 {
   id: 16,
   name: "Micro Cravate Sans Fil",
-  price: 80000,
+  price: 8000,
   category: "accessoire",
   image: "Images/micro cravate.jpg",
   description: [
