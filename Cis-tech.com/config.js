@@ -65,7 +65,7 @@ const PRODUCTS = [
   {
     id: 3,
     name: "AirPods Max",
-    price: 12000,
+    price: 10000,
     category: "airpods",
     image: "https://i.pinimg.com/1200x/6f/0d/66/6f0d6654c60ec29794aec8a44e220595.jpg",   // image par défaut = première variante
 
@@ -326,6 +326,38 @@ const PRODUCTS = [
     //  "Livraison gratuite à Dakar"
     ]
   },
+  {
+  id: 15,
+  name: "Support Téléphone Voiture",
+  price: 3500,
+  category: "accessoire",
+  image: "Images/support telephone.png",
+  description: [
+    "Support téléphone universel pour voiture.",
+    "• Compatible tous smartphones (jusqu'à 7 pouces)",
+    "• Fixation ventouse ultra-stable sur pare-brise & tableau de bord",
+    "• Rotation 360° pour orientation portrait ou paysage",
+    "• Installation & retrait en 1 seconde",
+    "• Bras articulé ajustable",
+    "Navigue en toute sécurité, les mains libres !"
+  ]
+},
+{
+  id: 16,
+  name: "Micro Cravate Sans Fil",
+  price: 80000,
+  category: "accessoire",
+  image: "Images/micro cravate.jpg",
+  description: [
+    "Micro cravate sans fil — Son cristallin pour tes contenus.",
+    "• Connexion sans fil stable jusqu'à 10 mètres",
+    "• Compatible iPhone, Android & appareils photo",
+    "• Clip discret & léger, s'attache en 2 secondes",
+    "• Son HD sans bruit de fond",
+    "• Idéal interviews, TikTok, YouTube & présentations",
+    "Ta voix, amplifiée. Ton contenu, professionnel !"
+  ]
+},
  
   /* {
   //   id: 11,
