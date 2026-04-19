@@ -358,7 +358,23 @@ const PRODUCTS = [
     "Ta voix, amplifiée. Ton contenu, professionnel !"
   ]
 },
- 
+ {
+    id: 17,
+    name: "Support Ordinateur ",
+    price: 5000,
+    category: "accessoire",
+    image: "Images/support pc.png",
+    description: [
+      "Support ordinateur en métal robuste & élégant.",
+      "• Hauteur réglable pour une posture parfaite",
+      "• Compatible tous laptops jusqu'à 17 pouces",
+      "• Matière aluminium premium ultra solide",
+      "• Design épuré & pliable pour le transport",
+      "• Ventilation optimale pour éviter la surchauffe",
+      "Travaille mieux, partout.",
+    
+    ]
+  },
   /* {
   //   id: 11,
   //   name: "Nom du produit",
