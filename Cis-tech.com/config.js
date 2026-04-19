@@ -361,7 +361,7 @@ const PRODUCTS = [
  {
     id: 17,
     name: "Support Ordinateur ",
-    price: 5000,
+    price: 3500,
     category: "accessoire",
     image: "Images/support pc.png",
     description: [
