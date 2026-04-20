@@ -375,6 +375,31 @@ const PRODUCTS = [
     
     ]
   },
+
+   {
+    id: 18,
+    name: "Mini Ventilateur",
+    price: 4000,
+    category: "accessoire",
+    image: "Images/ventillo noir.png",
+ 
+    // ─────────────────────────────────────────────────────────
+    // 🎨 VARIANTES DE COULEURS
+    // ─────────────────────────────────────────────────────────
+    variants: [
+      { label: "Noir", image: "Images/ventillo noir.png", color: "#1a1a1a" },
+      { label: "Rose", image: "Images/ventillo rose.png", color: "#f4a7b9" },
+    ],
+    description: [
+      "Ventilateur portable compact & silencieux.",
+      "• Ultra léger, parfait pour les déplacements",
+      "• Rechargeable via USB-C",
+      "• 3 vitesses réglables",
+      "• Autonomie longue durée",
+      "• Disponible en Noir et Rose",
+      "La fraîcheur partout avec toi !"
+    ]
+  },
   /* {
   //   id: 11,
   //   name: "Nom du produit",
