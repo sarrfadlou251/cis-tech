@@ -400,8 +400,25 @@ const PRODUCTS = [
       "La fraîcheur partout avec toi !"
     ]
   },
+
+  {
+    id: 19,
+    name: "Trépied Téléphone 1700mm",
+    price: 10000, // ← mets le prix ici
+    category: "accessoire",
+    image: "Images/trepied tel.png", // ← mets le nom de ton image ici
+    description: [
+      "Trépied réglable jusqu'à 1700mm — idéal pour la photo & la vidéo.",
+      "• Hauteur ajustable jusqu'à 170 cm",
+      "• Tête rotative 360° & inclinable",
+      "• Fixation téléphone universelle incluse",
+      "• Pieds antidérapants ultra stables",
+      "• Léger & pliable, facile à transporter",
+      "Le compagnon parfait pour tes contenus !"
+    ]
+  },
   /* {
-  //   id: 11,
+  //   id: 19,
   //   name: "Nom du produit",
   //   price: 5000,
   //   category: "airpods",   // airpods | batterie | accessoire | divers
