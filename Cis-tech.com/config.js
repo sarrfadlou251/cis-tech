@@ -376,7 +376,7 @@ const PRODUCTS = [
     ]
   },
 
-   {
+  /* {
     id: 18,
     name: "Mini Ventilateur",
     price: 4000,
@@ -400,7 +400,7 @@ const PRODUCTS = [
       "La fraîcheur partout avec toi !"
     ]
   },
-
+*/
   {
     id: 19,
     name: "Trépied Téléphone 1700mm",
