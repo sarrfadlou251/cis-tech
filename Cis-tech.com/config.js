@@ -417,6 +417,23 @@ const PRODUCTS = [
       "Le compagnon parfait pour tes contenus !"
     ]
   },
+  {
+    id: 20,
+    name: "Trépied Portable & Stabilisateur",
+    price: 10000,
+    category: "accessoire",
+    image: "Images/trepied portable & stabilisateur.png",
+    description: [
+      "Trépied portable & stabilisateur universel.",
+      "• Compatible smartphones & appareils photo",
+      "• Hauteur réglable & pliable ultra compact",
+      "• Tête rotative 360° pour tous les angles",
+      "• Fixation universelle antidérapante",
+      "• Léger, stable & facile à transporter",
+      "Le compagnon idéal pour tes photos & vidéos !",
+      "Livraison gratuite à Dakar"
+    ]
+  },
   /* {
   //   id: 19,
   //   name: "Nom du produit",
