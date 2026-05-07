@@ -125,7 +125,7 @@ const PRODUCTS = [
   },
   {
     id: 6,
-    name: "Power Bank 20000mAh",
+    name: "Power Bank 10000mAh",
     price: 10000,
     category: "batterie",
     image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg",
