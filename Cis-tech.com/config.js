@@ -447,7 +447,7 @@ const PRODUCTS = [
       "• Basses riches & profondes",
       "• Design iconique Apple",
       "Le classique indémodable.",
-      "Etuis AirPods de votre choix offert .
+      "Etuis AirPods de votre choix offert ."
 ]
  },
 
