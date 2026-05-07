@@ -434,20 +434,23 @@ const PRODUCTS = [
       "Livraison gratuite à Dakar"
     ]
   },
-  /* {
-  //   id: 19,
-  //   name: "Nom du produit",
-  //   price: 5000,
-  //   category: "airpods",   // airpods | batterie | accessoire | divers
-  //   image: "Images/monfichier.jpg",
-  //   description: [
-  //     "Phrase d'accroche principale.",
-  //     "• Point 1",
-  //     "• Point 2",
-       "• Point 3",
+   {
+     id: 21,
+     name: "AirPods 2",
+     price: 5000,
+     category: "airpods",   // airpods | batterie | accessoire | divers
+     image: "Images/airpod 2.png",
+     description: [
+        "AirPods 2.",
+      "• Son haute définition",
+      "• Micro intégré ultra clair",
+      "• Basses riches & profondes",
+      "• Design iconique Apple",
+      "Le classique indémodable.",
+      "Etuis AirPods de votre choix offert .
 ]
  },
-*/
+
   //
   // {
   //   id: 9,
