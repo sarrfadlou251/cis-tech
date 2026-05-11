@@ -127,7 +127,7 @@ const PRODUCTS = [
     id: 6,
     name: "Power Bank 10000mAh",
     price: 10000,
-    category: "batterie",
+    category: "batterie externe et chargeurs",
     image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg",
     description: [
       "Power Bank 20000mAh — Charge rapide 20W.",
@@ -185,7 +185,30 @@ const PRODUCTS = [
        "L'éclairage créatif où que vous soyez !"
    ]
  },
-  
+  {
+    id: 26,
+    name: "Lampe LED Selfie MagSafe",
+    price: 7000,
+    category: "led",
+    image: "Images/Lampe LED Selfie MagSafe noir.png",   // image par défaut = première variante
+
+    // ─────────────────────────────────────────────────────────
+    // 🎨 VARIANTES DE COULEURS
+    // ─────────────────────────────────────────────────────────
+    variants: [
+      { label: "Blanc", image: "Images/Lampe LED Selfie MagSafe blanche.png", color: "#f5f5f0" },
+      { label: "Noir",  image: "Images/Lampe LED Selfie MagSafe noir.png",  color: "#1c1c1e" },
+    ],
+    description: [
+      "Lampe LED Selfie MagSafe — S'attache instantanément à votre iPhone.",
+      "• 3 modes de lumière : blanc chaud, jaune & blanc froid",
+      "• Intensité réglable selon vos besoins",
+      "• Fixation magnétique MagSafe ultra rapide",
+      "• Idéale selfies, TikTok, lives & vidéos",
+      "• Disponible en blanc ou noir",
+      "Ton studio d'éclairage, toujours avec toi !"
+    ]
+  },
 
  {
      id: 10,
