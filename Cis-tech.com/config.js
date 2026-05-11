@@ -450,7 +450,78 @@ const PRODUCTS = [
       "Etuis AirPods de votre choix offert ."
 ]
  },
+  
+{
+  id: 22,
+  name: "Coque AirPods Dinosaure avec Porte-Clé",
+  price: 2000,
+  category: "accessoire",
+  image: "Images/ap case noir.png",
+  variants: [
+    { label: "Vert matcha",   image: "Images/ap case vert.png",   color: "#a8c5a0" },
+    { label: "Rose clair",    image: "Images/ap case rose.png",    color: "#f8bbd0" },
+    { label: "Violet clair",  image: "Images/ap case violet.png",  color: "#ce93d8" },
+    { label: "Gris foncé",    image: "Images/ap case noir.png",    color: "#546e7a" },
+    { label: "Bleu clair",    image: "Images/ap case bleu.pngg",    color: "#90caf9" },
+  ],
+  description: [
+    "Protège ton étui AirPods avec un motif dinosaure adorable.",
+    "• Porte-clé intégré pour ne jamais le perdre",
+    "• Silicone souple anti-choc & anti-rayures",
+    "• Accès total au port de charge",
+    "• 5 couleurs pastel disponibles au choix",
+    "Mignon, pratique et stylé !",
+   // "Livraison gratuite à Dakar"
+  ]
+},
 
+{
+  id: 23,
+  name: "Coque AirPods Dinosaure avec Lanière",
+  price: 2000,
+  category: "accessoire",
+  image: "Images/ap case bleu laniere.png",
+  variants: [
+    { label: "Vert matcha",   image: "Images/ap case vert laniere.png",   color: "#a8c5a0" },
+    { label: "Rose clair",    image: "Images/ap case rose laniére.png",    color: "#f8bbd0" },
+    { label: "Violet clair",  image: "Images/ap case violet laniere.png",  color: "#ce93d8" },
+    { label: "Gris foncé",    image: "Images/ap case noir laniere.png",    color: "#546e7a" },
+    { label: "Bleu clair",    image: "Images/ap case bleu laniere.pngg",    color: "#90caf9" },
+  ],
+  description: [
+    "Protège ton étui AirPods avec un motif dinosaure adorable.",
+    "• Lanière incluse pour le porter autour du cou ou du sac",
+    "• Silicone souple anti-choc & anti-rayures",
+    "• Accès total au port de charge",
+    "• 5 couleurs pastel disponibles au choix",
+    "Le combo style & praticité !",
+    //"Livraison gratuite à Dakar"
+  ]
+},
+
+{
+  id: 24,
+  name: "Coque AirPods PlayStation",
+  price: 2000,
+  category: "accessoire",
+  image: "Images/ap case playstation noir.png",
+  variants: [
+    { label: "Gris foncé",    image: "Images/ap case playstation noir.png",    color: "#546e7a" },
+    { label: "Blanc",         image: "Images/ap case playstation blanc.png",   color: "#f5f5f5" },
+    { label: "Rose",          image: "Images/ap case playstation rose.png",    color: "#f48fb1" },
+    { label: "Violet nuit",   image: "Images/ap case playstation violet.png",  color: "#4a148c" },
+    //{ label: "Bleu foncé",    image: "Images/coque playstation bleu.jpg",    color: "#1a237e" },
+  ],
+  description: [
+    "Pour les gamers qui veulent afficher leur passion partout.",
+    "• Motif PlayStation iconique (△ ○ ✕ □)",
+    "• Silicone souple anti-choc & anti-rayures",
+    "• Accès total au port de charge",
+    "• 4 coloris gaming disponibles",
+    "Level up ton style !",
+    //"Livraison gratuite à Dakar"
+  ]
+},
   //
   // {
   //   id: 9,
