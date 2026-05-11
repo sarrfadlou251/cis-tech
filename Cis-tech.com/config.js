@@ -16,7 +16,7 @@ const STORE_CONFIG = {
 // ─────────────────────────────────────────
 const COLLECTIONS = [
   { name: "AirPods & casque", category: "airpods", image: "Images/airpods pro2 face.jpg" },
-  { name: "Batterie externe ", category: "batterie", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
+  { name: "Batterie externe et Chargeurs", category: "batterie externe et chargeurs", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
   { name: "lampe selfie", category: "led", image: "Images/led verticale.png" },
   { name: "Accessoires", category: "accessoire", image: "Images/ac noir.jpeg" }
 ];
@@ -447,7 +447,7 @@ const PRODUCTS = [
       "• Basses riches & profondes",
       "• Design iconique Apple",
       "Le classique indémodable.",
-      "Etuis AirPods de votre choix offert ."
+   //   "Etuis AirPods de votre choix offert ."
 ]
  },
   
@@ -527,7 +527,7 @@ const PRODUCTS = [
     id: 25,
     name: "Chargeur iPhone Lightning",
     price: 5000,
-    category: "accessoire",
+    category: "batterie externe et chargeurs",
     image: "Images/chargeur lightning.png",
     description: [
       "Chargeur iPhone Lightning Compatible tous modèles.",
@@ -543,7 +543,7 @@ const PRODUCTS = [
     id: 26,
     name: "Chargeur iPhone USB-C",
     price: 5000,
-    category: "accessoire",
+    category: "batterie externe et chargeurs",
     image: "Images/chargeur ubc.png",
     description: [
       "Chargeur iPhone USB-C  Pour les derniers modèles Apple.",
