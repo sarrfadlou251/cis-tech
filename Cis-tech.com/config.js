@@ -528,7 +528,7 @@ const PRODUCTS = [
     name: "Chargeur iPhone Lightning",
     price: 5000,
     category: "accessoire",
-    image: "https://i.pinimg.com/1200x/0e/fa/77/0efa7707dd0571aa6f4d6934ed02a48a.jpg",
+    image: "Images/chargeur lightning.png",
     description: [
       "Chargeur iPhone Lightning Compatible tous modèles.",
       "• Compatible iPhone 5 jusqu'à iPhone 14",
@@ -544,7 +544,7 @@ const PRODUCTS = [
     name: "Chargeur iPhone USB-C",
     price: 5000,
     category: "accessoire",
-    image: "https://i.pinimg.com/1200x/32/82/7c/32827c0cef145345fac5df75a065b468.jpg",
+    image: "Images/chargeur ubc.png",
     description: [
       "Chargeur iPhone USB-C  Pour les derniers modèles Apple.",
       "• Compatible iPhone 15 et modèles récents",
