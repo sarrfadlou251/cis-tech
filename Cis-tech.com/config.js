@@ -522,6 +522,39 @@ const PRODUCTS = [
     //"Livraison gratuite à Dakar"
   ]
 },
+  
+  {
+    id: 25,
+    name: "Chargeur iPhone Lightning",
+    price: 5000,
+    category: "accessoire",
+    image: "https://i.pinimg.com/1200x/0e/fa/77/0efa7707dd0571aa6f4d6934ed02a48a.jpg",
+    description: [
+      "Chargeur iPhone Lightning Compatible tous modèles.",
+      "• Compatible iPhone 5 jusqu'à iPhone 14",
+      "• Charge rapide & stable",
+      "• Câble renforcé anti-arrachement",
+      "• Longueur idéale pour une utilisation quotidienne",
+      "• Léger & facile à transporter",
+      "La recharge fiable pour votre iPhone !"
+    ]
+  },
+  {
+    id: 26,
+    name: "Chargeur iPhone USB-C",
+    price: 5000,
+    category: "accessoire",
+    image: "https://i.pinimg.com/1200x/32/82/7c/32827c0cef145345fac5df75a065b468.jpg",
+    description: [
+      "Chargeur iPhone USB-C  Pour les derniers modèles Apple.",
+      "• Compatible iPhone 15 et modèles récents",
+      "• Charge rapide jusqu'à 20W",
+      "• Câble tressé ultra-résistant",
+      "• Connecteur USB-C robuste & précis",
+      "• Design épuré & compact",
+      "La puissance de la charge rapide Apple !"
+    ]
+  },
   //
   // {
   //   id: 9,
