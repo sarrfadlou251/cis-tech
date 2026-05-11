@@ -477,7 +477,7 @@ const PRODUCTS = [
 
 {
   id: 23,
-  name: "Coque AirPods Dinosaure avec Lanière",
+  name: "Coque AirPods fleurs avec Lanière",
   price: 2000,
   category: "accessoire",
   image: "Images/ap case bleu laniere.png",
