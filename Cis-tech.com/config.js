@@ -187,7 +187,7 @@ const PRODUCTS = [
  },
   {
     id: 26,
-    name: "Lampe LED Selfie MagSafe",
+    name: "Lampe LED Selfie Magnétique",
     price: 7000,
     category: "led",
     image: "Images/Lampe LED Selfie MagSafe noir.png",   // image par défaut = première variante
@@ -200,10 +200,10 @@ const PRODUCTS = [
       { label: "Noir",  image: "Images/Lampe LED Selfie MagSafe noir.png",  color: "#1c1c1e" },
     ],
     description: [
-      "Lampe LED Selfie MagSafe — S'attache instantanément à votre iPhone.",
+      "Lampe LED Selfie Magnétique — S'attache instantanément à votre iPhone.",
       "• 3 modes de lumière : blanc chaud, jaune & blanc froid",
       "• Intensité réglable selon vos besoins",
-      "• Fixation magnétique MagSafe ultra rapide",
+      "• Fixation magnétique  ultra rapide",
       "• Idéale selfies, TikTok, lives & vidéos",
       "• Disponible en blanc ou noir",
       "Ton studio d'éclairage, toujours avec toi !"
