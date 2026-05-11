@@ -462,7 +462,7 @@ const PRODUCTS = [
     { label: "Rose clair",    image: "Images/ap case rose.png",    color: "#f8bbd0" },
     { label: "Violet clair",  image: "Images/ap case violet.png",  color: "#ce93d8" },
     { label: "Gris foncé",    image: "Images/ap case noir.png",    color: "#546e7a" },
-    { label: "Bleu clair",    image: "Images/ap case bleu.pngg",    color: "#90caf9" },
+    { label: "Bleu clair",    image: "Images/ap case bleu.png",    color: "#90caf9" },
   ],
   description: [
     "Protège ton étui AirPods avec un motif dinosaure adorable.",
@@ -486,7 +486,7 @@ const PRODUCTS = [
     { label: "Rose clair",    image: "Images/ap case rose laniére.png",    color: "#f8bbd0" },
     { label: "Violet clair",  image: "Images/ap case violet laniere.png",  color: "#ce93d8" },
     { label: "Gris foncé",    image: "Images/ap case noir laniere.png",    color: "#546e7a" },
-    { label: "Bleu clair",    image: "Images/ap case bleu laniere.pngg",    color: "#90caf9" },
+    { label: "Bleu clair",    image: "Images/ap case bleu laniere.png",    color: "#90caf9" },
   ],
   description: [
     "Protège ton étui AirPods avec un motif dinosaure adorable.",
