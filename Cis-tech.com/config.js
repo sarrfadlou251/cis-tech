@@ -130,7 +130,7 @@ const PRODUCTS = [
     category: "batterie externe et chargeurs",
     image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg",
     description: [
-      "Power Bank 20000mAh — Charge rapide 20W.",
+      "Power Bank 10000mAh — Charge rapide 20W.",
       "• 2 ports USB + 1 port USB-C",
       "• Recharge plusieurs appareils simultanément",
       "• Indicateur de niveau de batterie LED",
@@ -138,22 +138,21 @@ const PRODUCTS = [
       "Plus jamais en panne de batterie !"
     ]
   },
-  //{
-    //id: 7,
-    //name: "Power Bank MagSafe 15000mAh",
-    //price: 12000,
-    //category: "batterie",
-    //image: "Images/power bank magsafe set.jpeg",
-    //description: [
-     // "Power Bank MagSafe 15000mAh.",
-     // "• Charge magnétique sans fil 15W",
-    //  "• Compatible iPhone MagSafe",
-    //  "• Port USB-C supplémentaire",
-      //"• Design premium ultra fin",
-      //"• S'attache directement à ton iPhone",
-    //  "La charge la plus intelligente du marché."
-   // ]
-//  },
+  {
+    id: 7,
+    name: "Power Bank 20000mAh",
+    price: 8000,
+    category: "batterie externe et chargeurs",
+    image: "Images/powerbank 20000.png",
+    description: [
+     "Power Bank 20000mAh — Charge rapide 20W.",
+      "• 2 ports USB + 1 port USB-C",
+      "• Recharge plusieurs appareils simultanément",
+      "• Indicateur de niveau de batterie LED",
+      "• Ultra compact & léger",
+      "Plus jamais en panne de batterie !"
+    ]
+ },
   {
     id: 8,
     name: "Lampe LED Selfie",
