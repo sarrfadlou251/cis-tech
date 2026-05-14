@@ -140,12 +140,12 @@ const PRODUCTS = [
   },
   {
     id: 7,
-    name: "Power Bank 20000mAh",
+    name: "Power Bank 10000mAh",
     price: 8000,
     category: "batterie externe et chargeurs",
     image: "Images/powerbank 20000.png",
     description: [
-     "Power Bank 20000mAh — Charge rapide 20W.",
+     "Power Bank 10000mAh — Charge rapide 20W.",
       "• 2 ports USB + 1 port USB-C",
       "• Recharge plusieurs appareils simultanément",
       "• Indicateur de niveau de batterie LED",
