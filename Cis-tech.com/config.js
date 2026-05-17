@@ -426,7 +426,7 @@ const PRODUCTS = [
   {
     id: 19,
     name: "Trépied Téléphone 1700mm",
-    price: 10000, // ← mets le prix ici
+    price: 8000, // ← mets le prix ici
     category: "accessoire",
     image: "Images/trepied tel.png", // ← mets le nom de ton image ici
     description: [
