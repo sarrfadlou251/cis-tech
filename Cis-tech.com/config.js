@@ -577,6 +577,26 @@ const PRODUCTS = [
       "La puissance de la charge rapide Apple !"
     ]
   },
+   {
+    id: 27,
+    name: "Magic Keyboard Apple",
+    price: 50000,
+    category: "accessoire",
+    image: "Images/clavier noir.png",
+    variants: [
+      { label: "Noir",         image: "Images/clavier noir.png", color: "#111111" },
+      { label: "Blanc",        image: "Images/clavier blanc.png", color: "#F5F5F5", border: "#ccc" },
+        ],
+    description: [
+     "Magic Keyboard Apple : Précision et confort de frappe.",
+      "• Frappe fluide, stable et extrêmement réactive",
+      "• Design minimaliste et profil ultra-fin",
+      "• Batterie rechargeable intégrée longue durée",
+      "• Connexion sans fil Bluetooth automatique",
+      "• Compatible Mac, iPad et iPhone",
+      "L'expérience de frappe ultime signée Apple !"
+    ]
+  },
   //
   // {
   //   id: 9,
