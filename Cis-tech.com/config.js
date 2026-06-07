@@ -581,8 +581,8 @@ const PRODUCTS = [
     "id": 27,
     "name": "Set Complet Magic Keyboard, Souris & Apple Pencil",
     "price": 50000,
-    "category": "accessoires",
-    "image": "Images/set_complet.png",
+    "category": "accessoire",
+    "image": "Images/clavier noir.png",
     "variants": [
       { "label": "Noir",        "image": "Images/clavier noir.png", "color": "#111111" },
       { "label": "Blanc",       "image": "Images/clavier blanc.png", "color": "#F5F5F5", "border": "#ccc" }
