@@ -577,26 +577,27 @@ const PRODUCTS = [
       "La puissance de la charge rapide Apple !"
     ]
   },
-   {
-    id: 27,
-    name: "Magic Keyboard Apple",
-    price: 50000,
-    category: "accessoire",
-    image: "Images/clavier noir.png",
-    variants: [
-      { label: "Noir",         image: "Images/clavier noir.png", color: "#111111" },
-      { label: "Blanc",        image: "Images/clavier blanc.png", color: "#F5F5F5", border: "#ccc" },
-        ],
-    description: [
-     "Magic Keyboard Apple : Précision et confort de frappe.",
-      "• Frappe fluide, stable et extrêmement réactive",
-      "• Design minimaliste et profil ultra-fin",
-      "• Batterie rechargeable intégrée longue durée",
-      "• Connexion sans fil Bluetooth automatique",
+  {
+    "id": 27,
+    "name": "Set Complet Magic Keyboard, Souris & Apple Pencil",
+    "price": 50000,
+    "category": "accessoires",
+    "image": "Images/set_complet.png",
+    "variants": [
+      { "label": "Noir",        "image": "Images/clavier noir.png", "color": "#111111" },
+      { "label": "Blanc",       "image": "Images/clavier blanc.png", "color": "#F5F5F5", "border": "#ccc" }
+    ],
+    "description": [
+      "Set complet Apple : Clavier, Souris et Apple Pencil.",
+      "• Magic Keyboard : Frappe fluide, stable et réactive",
+      "• Souris sans fil : Précision et navigation tactile intuitive",
+      "• Apple Pencil : Créativité et précision au millimètre",
+      "• Design minimaliste et connectivité Bluetooth fluide",
+      "• Batterie rechargeable intégrée pour chaque accessoire",
       "• Compatible Mac, iPad et iPhone",
-      "L'expérience de frappe ultime signée Apple !"
+      "Le pack ultime pour optimiser votre productivité Apple !"
     ]
-  },
+}
   //
   // {
   //   id: 9,
