@@ -126,7 +126,7 @@ const PRODUCTS = [
   {
     id: 6,
     name: "Power Bank 10000mAh",
-    price: 8000,
+    price: 6000,
     category: "batterie externe et chargeurs",
     image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg",
     description: [
@@ -141,7 +141,7 @@ const PRODUCTS = [
   {
     id: 7,
     name: "Power Bank 10000mAh",
-    price: 6000,
+    price: 8000,
     category: "batterie externe et chargeurs",
     image: "Images/powerbank 20000.png",
     description: [
