@@ -598,6 +598,66 @@ const PRODUCTS = [
       "Le pack ultime pour optimiser votre productivité Apple !"
     ]
 }
+  {
+    id: 28,
+    name: "Coque iPhone Noire — Range Rover",
+    price: 2000,
+    category: "accessoire",
+    image: "Images/coque range rover.jpeg",
+    description: [
+      "Coque noire élégante Range Rover.",
+      "• Protection complète contre les chocs",
+      "• Design sobre avec touche colorée",
+      "• Accès facile aux boutons et ports",
+      "• Compatible iPhone XR jusqu'à iPhone 17 Pro Max (précise ton modèle en commande)",
+      "Le style discret qui fait la différence !"
+    ]
+  },
+  {
+    id: 29,
+    name: "Coque iPhone Transparente — Porshe ",
+    price: 2000,
+    category: "accessoire",
+    image: "Images/coque porche.jpeg",
+    description: [
+      "Coque transparente porshe.",
+      "• Garde ton téléphone et ta carte au même endroit",
+      "• Transparence qui laisse voir la couleur d'origine",
+      "• Protection anti-choc renforcée aux angles",
+      "• Compatible iPhone XR jusqu'à iPhone 17 Pro Max (précise ton modèle en commande)",
+      "Pratique et discret au quotidien !"
+    ]
+  },
+  {
+    id: 30,
+    name: "Coque iPhone Be You — Rose",
+    price: 2000,
+    category: "accessoire",
+    image: "Images/coque be you rose.jpeg",
+    description: [
+      "Coque Rose avec motif kiss be you .",
+      "• Design romantique et féminin",
+      "• Finition douce au toucher",
+      "• Protection complète des angles et coins",
+      "• Compatible iPhone XR jusqu'à iPhone 17 Pro Max (précise ton modèle en commande)",
+      "Un peu de douceur sur ton téléphone !"
+    ]
+  },
+  {
+    id: 30,
+    name: "Coque iPhone Be You — Argentée",
+    price: 2000,
+    category: "accessoire",
+    image: "Images/coque be you gris.jpeg",
+    description: [
+      "Coque argentée avec motif kiss be you .",
+      "• Finition métallisée élégante",
+      "• Motif kiss délicat et tendance",
+      "• Protection complète des angles et coins",
+      "• Compatible iPhone XR jusqu'à iPhone 17 Pro Max (précise ton modèle en commande)",
+      "L'élégance qui brille discrètement !"
+    ]
+  },
   //
   // {
   //   id: 9,
