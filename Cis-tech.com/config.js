@@ -17,8 +17,9 @@ const STORE_CONFIG = {
 const COLLECTIONS = [
   { name: "AirPods & casque", category: "airpods", image: "Images/airpods pro2 face.jpg" },
   { name: "Batterie externe et Chargeurs", category: "batterie externe et chargeurs", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
-  { name: "lampe selfie", category: "led", image: "Images/led verticale.png" },
-  { name: "Accessoires", category: "accessoire", image: "Images/ac noir.jpeg" }
+  { name: "Lampe selfie", category: "led", image: "Images/led verticale.png" },
+  { name: "Accessoires", category: "accessoire", image: "Images/ac noir.jpeg" },
+  { name: "Coque", category: "coque", image: "Images/coque porche.jpeg" }
 ];
 
 // ─────────────────────────────────────────
@@ -477,7 +478,7 @@ const PRODUCTS = [
   id: 22,
   name: "Coque AirPods Dinosaure avec Porte-Clé",
   price: 2000,
-  category: "accessoire",
+  category: "coque",
   image: "Images/ap case noir.png",
   variants: [
     { label: "Vert matcha",   image: "Images/ap case vert.png",   color: "#a8c5a0" },
@@ -501,7 +502,7 @@ const PRODUCTS = [
   id: 23,
   name: "Coque AirPods fleurs avec Lanière",
   price: 2000,
-  category: "accessoire",
+  category: "coque",
   image: "Images/ap case bleu laniere.png",
   variants: [
     { label: "Vert matcha",   image: "Images/ap case vert laniere.png",   color: "#a8c5a0" },
@@ -525,7 +526,7 @@ const PRODUCTS = [
   id: 24,
   name: "Coque AirPods PlayStation",
   price: 2000,
-  category: "accessoire",
+  category: "coque",
   image: "Images/ap case playstation noir.png",
   variants: [
     { label: "Gris foncé",    image: "Images/ap case playstation noir.png",    color: "#546e7a" },
@@ -602,7 +603,7 @@ const PRODUCTS = [
     id: 28,
     name: "Coque iPhone Noire — Range Rover",
     price: 2000,
-    category: "accessoire",
+    category: "coque",
     image: "Images/coque range rover.jpeg",
     description: [
       "Coque noire élégante Range Rover.",
@@ -617,7 +618,7 @@ const PRODUCTS = [
     id: 29,
     name: "Coque iPhone Transparente — Porshe ",
     price: 2000,
-    category: "accessoire",
+    category: "coque",
     image: "Images/coque porche.jpeg",
     description: [
       "Coque transparente porshe.",
@@ -632,7 +633,7 @@ const PRODUCTS = [
     id: 30,
     name: "Coque iPhone Be You — Rose",
     price: 2000,
-    category: "accessoire",
+    category: "coque",
     image: "Images/coque be you rose.jpeg",
     description: [
       "Coque Rose avec motif kiss be you .",
@@ -647,7 +648,7 @@ const PRODUCTS = [
     id: 30,
     name: "Coque iPhone Be You — Argentée",
     price: 2000,
-    category: "accessoire",
+    category: "coque",
     image: "Images/coque be you gris.jpeg",
     description: [
       "Coque argentée avec motif kiss be you .",
