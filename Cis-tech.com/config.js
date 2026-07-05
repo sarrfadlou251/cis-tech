@@ -18,7 +18,7 @@ const COLLECTIONS = [
   { name: "AirPods & casque", category: "airpods", image: "Images/airpods pro2 face.jpg" },
   { name: "Batterie externe et Chargeurs", category: "batterie externe et chargeurs", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
   { name: "Lampe selfie", category: "led", image: "Images/led verticale.png" },
-  { name: "Accessoires", category: "accessoire", image: "Images/ac noir.jpeg" },
+  { name: "Accessoires", category: "accessoire", image: "Images/ventouse tel.jpg" },
   { name: "Coques", category: "coque", image: "Images/coque porche.jpeg" }
 ];
 
@@ -230,7 +230,7 @@ const PRODUCTS = [
   id: 11,
   name: "Coque AirPods 4",
   price: 1500,
-  category: "accessoire",
+  category: "coque",
   image: "https://i.pinimg.com/1200x/08/59/6a/08596afcbb32f7f177c9ac07353d700e.jpg",
   variants: [
     { label: "Noir",          image: "https://i.pinimg.com/1200x/08/59/6a/08596afcbb32f7f177c9ac07353d700e.jpg",        color: "#1a1a1a" },
@@ -257,7 +257,7 @@ const PRODUCTS = [
   id: 12,
   name: "Coque AirPods Pro 2",
   price: 1500,
-  category: "accessoire",
+  category: "coque",
   image: "https://i.pinimg.com/1200x/0f/da/8f/0fda8f86da584b503809569964a4a39d.jpg",
   variants: [
     { label: "Noir",         image: "https://www.pinterest.com/pin/1057220081251361712/",       color: "#1a1a1a" },
@@ -286,7 +286,7 @@ const PRODUCTS = [
   id: 13,
   name: "Coque AirPods 3",
   price: 1500,
-  category: "accessoire",
+  category: "coque",
   image: "https://i.pinimg.com/1200x/04/56/09/045609645ff8e98ea46e791342ad7085.jpg",
   variants: [
     { label: "Noir",         image: "https://i.pinimg.com/1200x/08/59/6a/08596afcbb32f7f177c9ac07353d700e.jpg",       color: "#1a1a1a" },
