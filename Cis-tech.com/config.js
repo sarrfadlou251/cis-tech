@@ -597,7 +597,7 @@ const PRODUCTS = [
       "• Compatible Mac, iPad et iPhone",
       "Le pack ultime pour optimiser votre productivité Apple !"
     ]
-}
+},
   {
     id: 28,
     name: "Coque iPhone Noire — Range Rover",
