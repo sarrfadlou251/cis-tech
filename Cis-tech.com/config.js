@@ -19,7 +19,7 @@ const COLLECTIONS = [
   { name: "Batterie externe et Chargeurs", category: "batterie externe et chargeurs", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
   { name: "Lampe selfie", category: "led", image: "Images/led verticale.png" },
   { name: "Accessoires", category: "accessoire", image: "Images/ac noir.jpeg" },
-  { name: "Coque", category: "coque", image: "Images/coque porche.jpeg" }
+  { name: "Coques", category: "coque", image: "Images/coque porche.jpeg" }
 ];
 
 // ─────────────────────────────────────────
