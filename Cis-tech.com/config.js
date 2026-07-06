@@ -443,7 +443,7 @@ const PRODUCTS = [
   {
     id: 20,
     name: "Trépied Portable & Stabilisateur",
-    price: 10000,
+    price: 6000,
     category: "accessoire",
     image: "Images/trepied portable & stabilisateur.png",
     description: [
