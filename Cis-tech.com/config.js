@@ -565,7 +565,7 @@ const PRODUCTS = [
   {
     id: 26,
     name: "Chargeur iPhone USB-C",
-    price: 6000,
+    price: 5000,
     category: "batterie externe et chargeurs",
     image: "Images/chargeur ubc.png",
     description: [
