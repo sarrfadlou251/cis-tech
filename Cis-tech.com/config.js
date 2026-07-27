@@ -111,7 +111,7 @@ const PRODUCTS = [
   {
     id: 5,
     name: "Casque Bose",
-    price: 10000,
+    price: 8000,
     category: "airpods",
     image: "Images/casque bose noir.jpg",
     description: [
@@ -142,7 +142,7 @@ const PRODUCTS = [
   {
     id: 7,
     name: "Power Bank 10000mAh",
-    price: 8000,
+    price: 7000,
     category: "batterie externe et chargeurs",
     image: "Images/powerbank 20000.png",
     description: [
