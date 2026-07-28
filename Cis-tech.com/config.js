@@ -33,7 +33,7 @@ const PRODUCTS = [
   {
     id: 1,
     name: "AirPods 4ème génération",
-    price: 9000,
+    price: 7000,
     category: "airpods",
     image: "Images/pro4.jpg",
     description: [
@@ -50,7 +50,7 @@ const PRODUCTS = [
   {
     id: 2,
     name: "AirPods Pro 2",
-    price: 8000,
+    price: 6500,
     category: "airpods",
     image: "Images/airpods pro2 face.jpg",
     description: [
@@ -66,7 +66,7 @@ const PRODUCTS = [
   {
     id: 3,
     name: "AirPods Max",
-    price: 10000,
+    price: 8000,
     category: "airpods",
     image: "https://i.pinimg.com/1200x/6f/0d/66/6f0d6654c60ec29794aec8a44e220595.jpg",   // image par défaut = première variante
 
@@ -95,7 +95,7 @@ const PRODUCTS = [
   {
     id: 4,
     name: "AirPods 3",
-    price: 8000,
+    price: 6500,
     category: "airpods",
     image: "Images/pod 3 face.jpg",
     description: [
@@ -213,7 +213,7 @@ const PRODUCTS = [
  {
      id: 10,
      name: "Air Pods Pro 3",
-     price: 10000,
+     price: 8000,
      category: "airpods",   // airpods | batterie | accessoire | divers
      image: "Images/airpods pro3.png",
      description: [
