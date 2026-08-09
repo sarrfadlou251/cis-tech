@@ -659,6 +659,35 @@ const PRODUCTS = [
       "L'élégance qui brille discrètement !"
     ]
   },
+  {
+    id: 31,
+    name: "Casque P9",
+    price: 5000,
+    category: "airpods",
+    image: "https://i.pinimg.com/1200x/99/23/b8/9923b859fa01d1ed1f2a9a1b06f967d2.jpg",   // image par défaut = première variante
+
+    // ─────────────────────────────────────────────────────────
+    // 🎨 VARIANTES DE COULEURS
+    // label : texte affiché sur le bouton
+    // image : fichier image de cette couleur
+    // color : couleur du cercle de sélection (code hex)
+    // ─────────────────────────────────────────────────────────
+    variants: [
+      { label: "Noir", image: "https://i.pinimg.com/1200x/21/73/c5/2173c50b8213a63af9be95b12d3bfd75.jpg", color: "#111111" },
+      { label: "Blanc", image: "https://i.pinimg.com/736x/b3/87/ab/b387ab7551fa7193f0fa340647ac0938.jpg", color: "#a0a0a5" },
+      { label: "Bleu", image: "https://i.pinimg.com/1200x/ab/dc/c7/abdcc78700d653833349f5e195c6ff8e.jpg", color: "#1a237e" },
+      { label: "Rose", image: "https://i.pinimg.com/736x/35/77/51/357751b8fe86e35f5b60566d84e1d3f9.jpg", color: "#e8a0b0" },
+    ],
+    description: [
+      "Casque premium sans fil.",
+      "• Basses puissantes & son immersif",
+      "• Jusqu'à 20h d'autonomie",
+      "• Confort optimal toute la journée",
+      "• Annulation de bruit adaptative",
+      "• Disponible en 4 couleurs au choix",
+      "Livraison Gratuite à Dakar."
+    ]
+  },
   //
   // {
   //   id: 9,
