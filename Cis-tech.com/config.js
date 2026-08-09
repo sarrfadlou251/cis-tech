@@ -707,7 +707,7 @@ const PRODUCTS = [
     name: "Chargeur Rapide pour Voiture",
     price: 5000,
     category: "batterie externe et chargeurs",
-    image: "Images/chargeur voiture.pngg",
+    image: "Images/chargeur voiture.png",
     description: [
      "Chargeur Rapide pour Voiture.",
       "• 2 ports : USB + 1 port USB-C",
