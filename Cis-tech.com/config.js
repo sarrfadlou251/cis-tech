@@ -399,19 +399,19 @@ const PRODUCTS = [
     ]
   },
 
-  /* {
+   {
     id: 18,
     name: "Mini Ventilateur",
-    price: 4000,
+    price: 5000,
     category: "accessoire",
-    image: "Images/ventillo noir.png",
+    image: "Images/mini ventillo.png",
  
     // ─────────────────────────────────────────────────────────
     // 🎨 VARIANTES DE COULEURS
     // ─────────────────────────────────────────────────────────
     variants: [
       { label: "Noir", image: "Images/ventillo noir.png", color: "#1a1a1a" },
-      { label: "Rose", image: "Images/ventillo rose.png", color: "#f4a7b9" },
+     // { label: "Rose", image: "Images/ventillo rose.png", color: "#f4a7b9" },
     ],
     description: [
       "Ventilateur portable compact & silencieux.",
