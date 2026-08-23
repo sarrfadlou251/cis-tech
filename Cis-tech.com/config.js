@@ -423,7 +423,7 @@ const PRODUCTS = [
       "La fraîcheur partout avec toi !"
     ]
   },
-*/
+
   {
     id: 19,
     name: "Trépied Téléphone 1700mm",
