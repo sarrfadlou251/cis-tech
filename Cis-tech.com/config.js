@@ -33,7 +33,7 @@ const PRODUCTS = [
   {
     id: 1,
     name: "AirPods 4ème génération",
-    price: 7000,
+    price: 6000,
     category: "airpods",
     image: "Images/pro4.jpg",
     description: [
@@ -50,7 +50,7 @@ const PRODUCTS = [
   {
     id: 2,
     name: "AirPods Pro 2",
-    price: 6500,
+    price: 6000,
     category: "airpods",
     image: "Images/airpods pro2 face.jpg",
     description: [
@@ -229,7 +229,7 @@ const PRODUCTS = [
  {
      id: 10,
      name: "Air Pods Pro 3",
-     price: 8000,
+     price: 7000,
      category: "airpods",   // airpods | batterie | accessoire | divers
      image: "Images/airpods pro3.png",
      description: [
@@ -384,7 +384,7 @@ const PRODUCTS = [
 {
   id: 16,
   name: "Micro Cravate Sans Fil",
-  price: 8000,
+  price: 7000,
   category: "accessoire",
   image: "Images/micro cravate.jpg",
   description: [
@@ -443,7 +443,7 @@ const PRODUCTS = [
   {
     id: 19,
     name: "Trépied Téléphone 1700mm",
-    price: 8000, // ← mets le prix ici
+    price: 7000, // ← mets le prix ici
     category: "accessoire",
     image: "Images/trepied tel.png", // ← mets le nom de ton image ici
     description: [
@@ -459,7 +459,7 @@ const PRODUCTS = [
   {
     id: 20,
     name: "Trépied Portable & Stabilisateur",
-    price: 6000,
+    price: 5000,
     category: "accessoire",
     image: "Images/trepied portable & stabilisateur.png",
     description: [
