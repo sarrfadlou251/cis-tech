@@ -443,9 +443,9 @@ const PRODUCTS = [
   {
     id: 19,
     name: "Trépied Téléphone 1700mm",
-    price: 7000, // ← mets le prix ici
+    price: 6000, // ← mets le prix ici
     category: "accessoire",
-    image: "Images/trepied tel.png", // ← mets le nom de ton image ici
+    image: "Images/trepieds 1m70.png", // ← mets le nom de ton image ici
     description: [
       "Trépied réglable jusqu'à 1700mm — idéal pour la photo & la vidéo.",
       "• Hauteur ajustable jusqu'à 170 cm",
@@ -733,6 +733,40 @@ const PRODUCTS = [
       "Plus jamais en panne de batterie en voiture !"
     ]
  },
+   {
+    id: 34,
+    name: "Trépieds avec led (1m70)",
+    price: 7000, // ← mets le prix ici
+    category: "accessoire",
+    image: "Images/trepieds led.png", // ← mets le nom de ton image ici
+    description: [
+      "Trépied réglable jusqu'à 1700mm — idéal pour la photo & la vidéo.",
+      "• Hauteur ajustable jusqu'à 170 cm",
+      "• Tête rotative 360° & inclinable avec des leds intégrées",
+      "• Fixation téléphone universelle incluse",
+      "• Pieds antidérapants ultra stables",
+      "• Léger & pliable, facile à transporter",
+      "Le compagnon parfait pour tes contenus !"
+    ]
+  },
+
+   {
+    id: 35,
+    name: "Apple Watch",
+    price: 10000, // ← mets le prix ici
+    category: "accessoire",
+    image: "Images/apple watch.png", // ← mets le nom de ton image ici
+    description": [
+  "Montre connectée polyvalente — l'alliée idéale de ton quotidien & de tes séances de sport.",
+  "• Écran Retina éclatant & toujours actif",
+  "• Suivi précis du rythme cardiaque & de la santé",
+  "• GPS & altimètre intégrés pour toutes tes activités",
+  "• Boîtier résistant & étanche à l'eau",
+  "• Design léger, personnalisable avec bracelets interchangeables",
+  "Le compagnon parfait pour suivre ton rythme au quotidien !"
+    ]
+  },
+  
   //
   // {
   //   id: 9,
