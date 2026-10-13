@@ -750,13 +750,13 @@ const PRODUCTS = [
     ]
   },
 
-   {
+  {
     id: 35,
     name: "Apple Watch",
     price: 10000, // ← mets le prix ici
     category: "accessoire",
     image: "Images/apple watch.png", // ← mets le nom de ton image ici
-    description": [
+    description: [
   "Montre connectée polyvalente — l'alliée idéale de ton quotidien & de tes séances de sport.",
   "• Écran Retina éclatant & toujours actif",
   "• Suivi précis du rythme cardiaque & de la santé",
