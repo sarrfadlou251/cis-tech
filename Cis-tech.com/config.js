@@ -95,7 +95,7 @@ const PRODUCTS = [
   {
     id: 4,
     name: "AirPods 3",
-    price: 6500,
+    price: 6000,
     category: "airpods",
     image: "Images/pod 3 face.jpg",
     description: [
