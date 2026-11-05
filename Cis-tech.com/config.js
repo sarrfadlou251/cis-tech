@@ -15,8 +15,8 @@ const STORE_CONFIG = {
 // 2. COLLECTIONS
 // ─────────────────────────────────────────
 const COLLECTIONS = [
-  { name: "AirPods & casque", category: "airpods", image: "Images/p9 noir.png" },
-  { name: "Casque", category: "casques", image: "Images/airpods pro2 face.jpg" },
+  { name: "AirPods ", category: "airpods", image: "Images/airpods pro2 face.jpg" },
+  { name: "Casque", category: "casques", image: "Images/p9 noir.png" },
   { name: "Batterie externe et Chargeurs", category: "batterie externe et chargeurs", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
   { name: "Lampe selfie", category: "led", image: "Images/led verticale.png" },
   { name: "Accessoires", category: "accessoire", image: "Images/ventouse tel.jpg" },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     id: 3,
     name: "AirPods Max",
     price: 8000,
-    category: "airpods",
+    category: "casques",
     image: "https://i.pinimg.com/1200x/6f/0d/66/6f0d6654c60ec29794aec8a44e220595.jpg",   // image par défaut = première variante
 
     // ─────────────────────────────────────────────────────────
@@ -113,7 +113,7 @@ const PRODUCTS = [
     id: 5,
     name: "Casque Bose",
     price: 8000,
-    category: "airpods",
+    category: "casques",
     image: "Images/casque bose noir.jpg",
     description: [
       "Casque Bose premium.",
