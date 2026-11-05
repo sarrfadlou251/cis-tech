@@ -680,7 +680,7 @@ const PRODUCTS = [
     id: 31,
     name: "Casque P9",
     price: 5000,
-    category: "airpods",
+    category: "casques",
     image: "Noir", image: "Images/p9 noir.png",   // image par défaut = première variante
 
     // ─────────────────────────────────────────────────────────
