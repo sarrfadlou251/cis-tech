@@ -15,7 +15,8 @@ const STORE_CONFIG = {
 // 2. COLLECTIONS
 // ─────────────────────────────────────────
 const COLLECTIONS = [
-  { name: "AirPods & casque", category: "airpods", image: "Images/airpods pro2 face.jpg" },
+  { name: "AirPods & casque", category: "airpods", image: "Images/p9 noir.png" },
+  { name: "Casque", category: "casques", image: "Images/airpods pro2 face.jpg" },
   { name: "Batterie externe et Chargeurs", category: "batterie externe et chargeurs", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
   { name: "Lampe selfie", category: "led", image: "Images/led verticale.png" },
   { name: "Accessoires", category: "accessoire", image: "Images/ventouse tel.jpg" },
