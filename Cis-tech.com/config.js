@@ -119,7 +119,8 @@ const PRODUCTS = [
      variants: [
       { label: "Noir", image: "Images/casque bose noir.png", color: "#111111" },
       { label: "Blanc", image: "Images/casque bose blanc.png", color: "#a0a0a5" },
-      { label: "Kaki", image: "Images/casque bose kaki.png", color: "#798933" },
+      { label: "Rose", image: "https://i.pinimg.com/1200x/04/2f/f1/042ff1f5a76d0a46418d518d11393241.jpg", color: "#e8a0b0" },
+      
     ],
     description: [
       "Casque Bose premium.",
@@ -776,24 +777,24 @@ const PRODUCTS = [
 
   {
     id: 36,
-    name: "Casque JBL",
+    name: "Casque JBL Tune 760 BT",
     price: 7000,
     category: "casques",
     image: "Noir", image: "Images/casque jbl noir.png",   // image par défaut = première variante
     variants: [
       { label: "Noir", image: "Images/casque jbl noir.png", color: "#111111" },
       { label: "Blanc", image: "Images/casque jbl blanc.png", color: "#a0a0a5" },
-      { label: "Bleu", image: "Images/casque jbl bleu.png", color: "#1a237e" },
+      { label: "Kaki", image: "Images/casque bose kaki.png", color: "#798933" },
       
     ],
     description: [
-  "Profitez d'une expérience audio immersive avec ce casque JBL sans fil.",
+  "Profitez d'une expérience audio immersive avec ce casque JBL Tune 760 BT sans fil.",
   "• Son puissant et basses profondes",
   "• Connexion sans fil Bluetooth",
   "• Autonomie longue durée",
   "• Design moderne et confortable",
   "• Commandes intégrées pour une utilisation facile",
-  "• Disponible en 3 couleurs : Noir, Blanc et Bleu",
+  "• Disponible en 3 couleurs : Noir, Blanc et Kaki",
   "Livraison Partout à Dakar."
 ]
   },
@@ -818,6 +819,29 @@ const PRODUCTS = [
   "• Arceau confortable pour une utilisation prolongée",
   "• Disponible en 2 couleurs : Noir et Blanc",
   "Livraison gratuite à Dakar."
+]
+  },
+  {
+    id: 38,
+    name: "Casque JBL Tune M-65 ",
+    price: 7000,
+    category: "casques",
+    image: "Noir", image: "Images/casque jbl m65 noir.png",   // image par défaut = première variante
+    variants: [
+      { label: "Noir", image: "Images/casque jbl m65 noir.png", color: "#111111" },
+      { label: "Blanc", image: "Images/casque jbl m65 blanc.png", color: "#a0a0a5" },
+      { label: "Kaki", image: "Images/casque jbl m65 kaki.png", color: "#798933" },
+      
+    ],
+    description: [
+  "Profitez d'une expérience audio immersive avec ce casque JBL Tune M-65 sans fil.",
+  "• Son puissant et basses profondes",
+  "• Connexion sans fil Bluetooth",
+  "• Autonomie longue durée",
+  "• Design moderne et confortable",
+  "• Commandes intégrées pour une utilisation facile",
+  "• Disponible en 3 couleurs : Noir, Blanc et Bleu",
+  "Livraison Partout à Dakar."
 ]
   },
   
