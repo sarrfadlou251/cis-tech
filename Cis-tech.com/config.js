@@ -114,12 +114,12 @@ const PRODUCTS = [
     name: "Casque Bose",
     price: 7000,
     category: "casques",
-    image: "Images/casque bose noir.jpg",
+    image: "Images/casque bose noir.png",
 
      variants: [
-      { label: "Noir", image: "Images/casque bose noir.jpg", color: "#111111" },
-      { label: "Blanc", image: "Images/p9 blanc.png", color: "#a0a0a5" },
-      { label: "Kaki", image: "Images/casque bose kaki.png", color: "#F0E68C" },
+      { label: "Noir", image: "Images/casque bose noir.png", color: "#111111" },
+      { label: "Blanc", image: "Images/casque bose blanc.png color: "#a0a0a5" },
+      { label: "Kaki", image: "Images/casque bose kaki.png", color: "#798933" },
     ],
     description: [
       "Casque Bose premium.",
@@ -781,9 +781,9 @@ const PRODUCTS = [
     category: "casques",
     image: "Noir", image: "Images/p9 noir.png",   // image par défaut = première variante
     variants: [
-      { label: "Noir", image: "Images/p9 noir.png", color: "#111111" },
-      { label: "Blanc", image: "Images/p9 blanc.png", color: "#a0a0a5" },
-      { label: "Bleu", image: "Images/p9 bleu.png", color: "#1a237e" },
+      { label: "Noir", image: "Images/casque jbl noir.pn", color: "#111111" },
+      { label: "Blanc", image: "Images/casque jbl blanc.pn", color: "#a0a0a5" },
+      { label: "Bleu", image: "Images/casque jbl bleu.png", color: "#1a237e" },
       
     ],
     description: [
@@ -805,8 +805,8 @@ const PRODUCTS = [
     category: "casques",
     image: "Noir", image: "Images/p9 noir.png",   // image par défaut = première variante
     variants: [
-      { label: "Noir", image: "Images/p9 noir.png", color: "#111111" },
-      { label: "Blanc", image: "Images/p9 blanc.png", color: "#a0a0a5" },
+      { label: "Noir", image: "Images/casque sony noir.png", color: "#111111" },
+      { label: "Blanc", image: "Images/casque sony blanc.png", color: "#a0a0a5" },
       
     ],
     description: [
