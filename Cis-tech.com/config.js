@@ -114,7 +114,7 @@ const PRODUCTS = [
     name: "Casque Bose",
     price: 7000,
     category: "casques",
-    image: "Images/casque bose noir.png",
+    image: "Images/casque bose blanc.png",
 
      variants: [
       { label: "Noir", image: "Images/casque bose noir.png", color: "#111111" },
@@ -780,7 +780,7 @@ const PRODUCTS = [
     name: "Casque JBL Tune 760 BT",
     price: 7000,
     category: "casques",
-    image: "Noir", image: "Images/casque jbl noir.png",   // image par défaut = première variante
+    image: "Noir", image: "Images/casque bose kaki.png",   // image par défaut = première variante
     variants: [
       { label: "Noir", image: "Images/casque jbl noir.png", color: "#111111" },
       { label: "Blanc", image: "Images/casque jbl blanc.png", color: "#a0a0a5" },
@@ -826,7 +826,7 @@ const PRODUCTS = [
     name: "Casque JBL Tune M-65 ",
     price: 7000,
     category: "casques",
-    image: "Noir", image: "Images/casque jbl m65 noir.png",   // image par défaut = première variante
+    image: "Noir", image: "Images/casque jbl m65 blanc.png",   // image par défaut = première variante
     variants: [
       { label: "Noir", image: "Images/casque jbl m65 noir.png", color: "#111111" },
       { label: "Blanc", image: "Images/casque jbl m65 blanc.png", color: "#a0a0a5" },
