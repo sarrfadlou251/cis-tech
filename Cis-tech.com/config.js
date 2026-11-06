@@ -118,7 +118,7 @@ const PRODUCTS = [
 
      variants: [
       { label: "Noir", image: "Images/casque bose noir.png", color: "#111111" },
-      { label: "Blanc", image: "Images/casque bose blanc.png color: "#a0a0a5" },
+      { label: "Blanc", image: "Images/casque bose blanc.png", color: "#a0a0a5" },
       { label: "Kaki", image: "Images/casque bose kaki.png", color: "#798933" },
     ],
     description: [
