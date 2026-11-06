@@ -96,7 +96,7 @@ const PRODUCTS = [
   {
     id: 4,
     name: "AirPods 3",
-    price: 6000,
+    price: 5000,
     category: "airpods",
     image: "Images/pod 3 face.jpg",
     description: [
@@ -112,9 +112,15 @@ const PRODUCTS = [
   {
     id: 5,
     name: "Casque Bose",
-    price: 8000,
+    price: 7000,
     category: "casques",
     image: "Images/casque bose noir.jpg",
+
+     variants: [
+      { label: "Noir", image: "Images/casque bose noir.jpg", color: "#111111" },
+      { label: "Blanc", image: "Images/p9 blanc.png", color: "#a0a0a5" },
+      { label: "Kaki", image: "Images/casque bose kaki.png", color: "#F0E68C" },
+    ],
     description: [
       "Casque Bose premium.",
       "• Annulation de bruit de classe mondiale",
@@ -766,6 +772,53 @@ const PRODUCTS = [
   "• Design léger, personnalisable avec bracelets interchangeables",
   "Le compagnon parfait pour suivre ton rythme au quotidien !"
     ]
+  },
+
+  {
+    id: 36,
+    name: "Casque JBL",
+    price: 7000,
+    category: "casques",
+    image: "Noir", image: "Images/p9 noir.png",   // image par défaut = première variante
+    variants: [
+      { label: "Noir", image: "Images/p9 noir.png", color: "#111111" },
+      { label: "Blanc", image: "Images/p9 blanc.png", color: "#a0a0a5" },
+      { label: "Bleu", image: "Images/p9 bleu.png", color: "#1a237e" },
+      
+    ],
+    description: [
+  "Profitez d'une expérience audio immersive avec ce casque JBL sans fil.",
+  "• Son puissant et basses profondes",
+  "• Connexion sans fil Bluetooth",
+  "• Autonomie longue durée",
+  "• Design moderne et confortable",
+  "• Commandes intégrées pour une utilisation facile",
+  "• Disponible en 3 couleurs : Noir, Blanc et Bleu",
+  "Livraison Partout à Dakar."
+]
+  },
+
+  {
+    id: 37,
+    name: "Casque Sony",
+    price: 7000,
+    category: "casques",
+    image: "Noir", image: "Images/p9 noir.png",   // image par défaut = première variante
+    variants: [
+      { label: "Noir", image: "Images/p9 noir.png", color: "#111111" },
+      { label: "Blanc", image: "Images/p9 blanc.png", color: "#a0a0a5" },
+      
+    ],
+    description: [
+  "Découvrez un son de qualité avec ce casque Sony sans fil, conçu pour votre confort au quotidien.",
+  "• Son clair et équilibré",
+  "• Basses dynamiques pour une meilleure immersion",
+  "• Connexion sans fil Bluetooth",
+  "• Design élégant et ergonomique",
+  "• Arceau confortable pour une utilisation prolongée",
+  "• Disponible en 2 couleurs : Noir et Blanc",
+  "Livraison gratuite à Dakar."
+]
   },
   
   //
