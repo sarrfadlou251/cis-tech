@@ -69,7 +69,7 @@ const PRODUCTS = [
     name: "AirPods Max",
     price: 8000,
     category: "casques",
-    image: "https://i.pinimg.com/1200x/6f/0d/66/6f0d6654c60ec29794aec8a44e220595.jpg",   // image par défaut = première variante
+    image: "Images/Airpods max violet.jpeg",   // image par défaut = première variante
 
     // ─────────────────────────────────────────────────────────
     // 🎨 VARIANTES DE COULEURS
@@ -688,7 +688,7 @@ const PRODUCTS = [
     name: "Casque P9",
     price: 5000,
     category: "casques",
-    image: "Noir", image: "Images/p9 noir.png",   // image par défaut = première variante
+    image: "Noir", image: "Images/p9 bleu.png",   // image par défaut = première variante
 
     // ─────────────────────────────────────────────────────────
     // 🎨 VARIANTES DE COULEURS
