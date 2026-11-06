@@ -779,10 +779,10 @@ const PRODUCTS = [
     name: "Casque JBL",
     price: 7000,
     category: "casques",
-    image: "Noir", image: "Images/p9 noir.png",   // image par défaut = première variante
+    image: "Noir", image: "Images/casque jbl noir.png",   // image par défaut = première variante
     variants: [
-      { label: "Noir", image: "Images/casque jbl noir.pn", color: "#111111" },
-      { label: "Blanc", image: "Images/casque jbl blanc.pn", color: "#a0a0a5" },
+      { label: "Noir", image: "Images/casque jbl noir.png", color: "#111111" },
+      { label: "Blanc", image: "Images/casque jbl blanc.png", color: "#a0a0a5" },
       { label: "Bleu", image: "Images/casque jbl bleu.png", color: "#1a237e" },
       
     ],
@@ -803,7 +803,7 @@ const PRODUCTS = [
     name: "Casque Sony",
     price: 7000,
     category: "casques",
-    image: "Noir", image: "Images/p9 noir.png",   // image par défaut = première variante
+    image: "Noir", image: "Images/casque sony noir.png",   // image par défaut = première variante
     variants: [
       { label: "Noir", image: "Images/casque sony noir.png", color: "#111111" },
       { label: "Blanc", image: "Images/casque sony blanc.png", color: "#a0a0a5" },
