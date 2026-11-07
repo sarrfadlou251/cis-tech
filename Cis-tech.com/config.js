@@ -114,12 +114,12 @@ const PRODUCTS = [
     name: "Casque Bose",
     price: 7000,
     category: "casques",
-    image: "Images/casque bose blanc.png",
+    image: "Images/casque bose rose.png",
 
      variants: [
       { label: "Noir", image: "Images/casque bose noir.png", color: "#111111" },
       { label: "Blanc", image: "Images/casque bose blanc.png", color: "#a0a0a5" },
-      { label: "Rose", image: "https://i.pinimg.com/1200x/04/2f/f1/042ff1f5a76d0a46418d518d11393241.jpg", color: "#e8a0b0" },
+      { label: "Rose", image: "Images/casque bose rose.png", color: "#e8a0b0" },
        { label: "Bleu", image: "https://i.pinimg.com/736x/10/12/94/101294e799f955194ebb229ddd0ef639.jpg", color: "#1a237e" },
       
     ],
@@ -781,7 +781,7 @@ const PRODUCTS = [
     name: "Casque JBL Tune 760 BT",
     price: 7000,
     category: "casques",
-    image: "Noir", image: "Images/casque bose kaki.png",   // image par défaut = première variante
+    image: "Noir", image: "Images/casque jbl noir.png",   // image par défaut = première variante
     variants: [
       { label: "Noir", image: "Images/casque jbl noir.png", color: "#111111" },
       { label: "Blanc", image: "Images/casque jbl blanc.png", color: "#a0a0a5" },
