@@ -16,7 +16,7 @@ const STORE_CONFIG = {
 // ─────────────────────────────────────────
 const COLLECTIONS = [
   { name: "AirPods ", category: "airpods", image: "Images/airpods pro2 face.jpg" },
-  { name: "Casque", category: "casques", image: "Images/p9 noir.png" },
+  { name: "Casques", category: "casques", image: "Images/p9 noir.png" },
   { name: "Batterie externe et Chargeurs", category: "batterie externe et chargeurs", image: "Images/WhatsApp Image 2026-02-03 at 23.57.08.jpeg" },
   { name: "Lampe selfie", category: "led", image: "Images/led verticale.png" },
   { name: "Accessoires", category: "accessoire", image: "Images/ventouse tel.jpg" },
@@ -67,9 +67,9 @@ const PRODUCTS = [
   {
     id: 3,
     name: "AirPods Max",
-    price: 8000,
+    price: 6000,
     category: "casques",
-    image: "Images/Airpods max violet.jpeg",   // image par défaut = première variante
+    image: "https://i.pinimg.com/736x/76/4a/d2/764ad27fb698f662742b93156faa93a5.jpg",   // image par défaut = première variante
 
     // ─────────────────────────────────────────────────────────
     // 🎨 VARIANTES DE COULEURS
@@ -120,6 +120,7 @@ const PRODUCTS = [
       { label: "Noir", image: "Images/casque bose noir.png", color: "#111111" },
       { label: "Blanc", image: "Images/casque bose blanc.png", color: "#a0a0a5" },
       { label: "Rose", image: "https://i.pinimg.com/1200x/04/2f/f1/042ff1f5a76d0a46418d518d11393241.jpg", color: "#e8a0b0" },
+       { label: "Bleu", image: "https://i.pinimg.com/736x/10/12/94/101294e799f955194ebb229ddd0ef639.jpg", color: "#1a237e" },
       
     ],
     description: [
@@ -688,7 +689,7 @@ const PRODUCTS = [
     name: "Casque P9",
     price: 5000,
     category: "casques",
-    image: "Noir", image: "Images/p9 bleu.png",   // image par défaut = première variante
+    image: "Noir", image: "https://i.pinimg.com/736x/10/64/b1/1064b1f8bb413bcb0acb76e8427a1562.jpg",   // image par défaut = première variante
 
     // ─────────────────────────────────────────────────────────
     // 🎨 VARIANTES DE COULEURS
@@ -697,10 +698,10 @@ const PRODUCTS = [
     // color : couleur du cercle de sélection (code hex)
     // ─────────────────────────────────────────────────────────
     variants: [
-      { label: "Noir", image: "Images/p9 noir.png", color: "#111111" },
-      { label: "Blanc", image: "Images/p9 blanc.png", color: "#a0a0a5" },
-      { label: "Bleu", image: "Images/p9 bleu.png", color: "#1a237e" },
-      { label: "Rose", image: "Images/p9 rose.png", color: "#e8a0b0" },
+      { label: "Noir", image: "https://i.pinimg.com/736x/81/6d/6e/816d6ecd3bfbe3cf1580c14abaf1da8d.jpg", color: "#111111" },
+      { label: "Blanc", image: "https://i.pinimg.com/1200x/d4/3d/4d/d43d4d0b644f706f996b06416d6857fc.jpg", color: "#a0a0a5" },
+      { label: "Bleu", image: "https://i.pinimg.com/736x/10/64/b1/1064b1f8bb413bcb0acb76e8427a1562.jpg", color: "#1a237e" },
+      { label: "Rose", image: "https://i.pinimg.com/736x/1d/bc/c6/1dbcc64bc93c33019955fa33db4c0874.jpg", color: "#e8a0b0" },
     ],
     description: [
       "Casque premium sans fil.",
@@ -784,7 +785,7 @@ const PRODUCTS = [
     variants: [
       { label: "Noir", image: "Images/casque jbl noir.png", color: "#111111" },
       { label: "Blanc", image: "Images/casque jbl blanc.png", color: "#a0a0a5" },
-      { label: "Kaki", image: "Images/casque bose kaki.png", color: "#798933" },
+      
       
     ],
     description: [
