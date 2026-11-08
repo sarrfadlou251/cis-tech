@@ -69,7 +69,7 @@ const PRODUCTS = [
     name: "AirPods Max",
     price: 6000,
     category: "casques",
-    image: "https://i.pinimg.com/736x/76/4a/d2/764ad27fb698f662742b93156faa93a5.jpg",   // image par défaut = première variante
+    image: "https://i.pinimg.com/1200x/6f/0d/66/6f0d6654c60ec29794aec8a44e220595.jpg",   // image par défaut = première variante
 
     // ─────────────────────────────────────────────────────────
     // 🎨 VARIANTES DE COULEURS
@@ -80,7 +80,7 @@ const PRODUCTS = [
     variants: [
       { label: "Noir", image: "https://i.pinimg.com/1200x/6f/0d/66/6f0d6654c60ec29794aec8a44e220595.jpg", color: "#2c2c2e" },
       { label: "Gris", image: "https://i.pinimg.com/736x/16/b4/b6/16b4b66d3ebf09ee60041f809c623fb3.jpg", color: "#a0a0a5" },
-      { label: "Violet", image: "Images/Airpods max violet.jpeg", color: "#7a5ea6" },
+      { label: "Bleu", image: "https://i.pinimg.com/1200x/df/af/96/dfaf96fe58ced7ffc2745f95c4a276ed.jpg", color: "#1a237e" },
       { label: "Rose", image: "https://i.pinimg.com/736x/76/4a/d2/764ad27fb698f662742b93156faa93a5.jpg", color: "#e8a0b0" },
     ],
     description: [
@@ -114,7 +114,7 @@ const PRODUCTS = [
     name: "Casque Bose",
     price: 7000,
     category: "casques",
-    image: "Images/casque bose rose.png",
+    image: "https://i.pinimg.com/736x/10/12/94/101294e799f955194ebb229ddd0ef639.jpg",
 
      variants: [
       { label: "Noir", image: "Images/casque bose noir.png", color: "#111111" },
@@ -689,7 +689,7 @@ const PRODUCTS = [
     name: "Casque P9",
     price: 5000,
     category: "casques",
-    image: "Noir", image: "https://i.pinimg.com/736x/10/64/b1/1064b1f8bb413bcb0acb76e8427a1562.jpg",   // image par défaut = première variante
+    image: "Blanc", image: "https://i.pinimg.com/1200x/d4/3d/4d/d43d4d0b644f706f996b06416d6857fc.jpg",   // image par défaut = première variante
 
     // ─────────────────────────────────────────────────────────
     // 🎨 VARIANTES DE COULEURS
@@ -827,7 +827,7 @@ const PRODUCTS = [
     name: "Casque JBL Tune M-65 ",
     price: 7000,
     category: "casques",
-    image: "Noir", image: "Images/casque jbl m65 blanc.png",   // image par défaut = première variante
+    image: "Noir", image: "Images/casque jbl m65 kaki.png",   // image par défaut = première variante
     variants: [
       { label: "Noir", image: "Images/casque jbl m65 noir.png", color: "#111111" },
       { label: "Blanc", image: "Images/casque jbl m65 blanc.png", color: "#a0a0a5" },
