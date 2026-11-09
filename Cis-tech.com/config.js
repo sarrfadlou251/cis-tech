@@ -112,7 +112,7 @@ const PRODUCTS = [
   {
     id: 5,
     name: "Casque Bose",
-    price: 7000,
+    price: 8000,
     category: "casques",
     image: "https://i.pinimg.com/736x/10/12/94/101294e799f955194ebb229ddd0ef639.jpg",
 
@@ -689,7 +689,7 @@ const PRODUCTS = [
     name: "Casque P9",
     price: 5000,
     category: "casques",
-    image: "Blanc", image: "https://i.pinimg.com/1200x/d4/3d/4d/d43d4d0b644f706f996b06416d6857fc.jpg",   // image par défaut = première variante
+    image: "Rose", image: "https://i.pinimg.com/736x/1d/bc/c6/1dbcc64bc93c33019955fa33db4c0874.jpg",   // image par défaut = première variante
 
     // ─────────────────────────────────────────────────────────
     // 🎨 VARIANTES DE COULEURS
@@ -803,7 +803,7 @@ const PRODUCTS = [
   {
     id: 37,
     name: "Casque Sony",
-    price: 7000,
+    price: 8000,
     category: "casques",
     image: "Noir", image: "Images/casque sony noir.png",   // image par défaut = première variante
     variants: [
@@ -825,7 +825,7 @@ const PRODUCTS = [
   {
     id: 38,
     name: "Casque JBL Tune M-65 ",
-    price: 7000,
+    price: 8000,
     category: "casques",
     image: "Noir", image: "Images/casque jbl m65 kaki.png",   // image par défaut = première variante
     variants: [
