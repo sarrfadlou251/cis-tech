@@ -267,14 +267,13 @@ const PRODUCTS = [
 ],
 
   description: [
-    "Pour les gamers qui veulent afficher leur passion partout.",
-    "• Motif PlayStation iconique (△ ○ ✕ □)",
-    "• Silicone souple anti-choc & anti-rayures",
+    "Pour ajouter une touche de douceur et d'amour à ton quotidien.",
+    "• Design pailleté avec jolis motifs cœurs roses",
+    "• Silicone transparent souple anti-choc & anti-rayures",
+    "• Mousqueton inclus pour l'accrocher partout facilement",
     "• Accès total au port de charge",
-    "• 4 coloris gaming disponibles",
-    "Level up ton style !",
-    //"Livraison gratuite à Dakar"
-  ]
+    "Craque pour ton nouveau style !"
+]
 },
   
   
@@ -292,14 +291,13 @@ const PRODUCTS = [
   "AirPods Pro 3"
 ],
   description: [
-    "Pour les gamers qui veulent afficher leur passion partout.",
-    "• Motif PlayStation iconique (△ ○ ✕ □)",
-    "• Silicone souple anti-choc & anti-rayures",
+    "Pour ceux qui aiment garder leurs affaires pour eux avec style.",
+    "• Design stylé et affirmé 'Don't Touch My Pods'",
+    "• Silicone noir mat anti-choc & anti-rayures",
+    "• Mousqueton résistant inclus pour un transport sécurisé",
     "• Accès total au port de charge",
-    "• 4 coloris gaming disponibles",
-    "Level up ton style !",
-    //"Livraison gratuite à Dakar"
-  ]
+    "Protège ton son avec attitude !"
+]
 },
 
 
