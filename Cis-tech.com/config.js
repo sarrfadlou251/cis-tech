@@ -250,87 +250,126 @@ const PRODUCTS = [
          "Etuis AirPods de votre choix offert ."
         ]
   },
-  
-{
+
+  {
   id: 11,
-  name: "Coque AirPods 4",
-  price: 1500,
+  name: "Coque AirPods Pink Hearts",
+  price: 2000,
   category: "coque",
-  image: "https://i.pinimg.com/1200x/08/59/6a/08596afcbb32f7f177c9ac07353d700e.jpg",
-  variants: [
-    { label: "Noir",          image: "https://i.pinimg.com/1200x/08/59/6a/08596afcbb32f7f177c9ac07353d700e.jpg",        color: "#1a1a1a" },
-    { label: "Rose",          image: "https://i.pinimg.com/736x/a2/27/d0/a227d0ece58465a570feba7a901a0d68.jpg",         color: "#f48fb1" },
-    { label: "Violet",        image: "https://i.pinimg.com/1200x/56/b1/2b/56b12bffdf942dde6b965b050d666153.jpg",       color: "#9c27b0" },
-    { label: "Bleu foncé",    image: "https://i.pinimg.com/1200x/04/56/09/045609645ff8e98ea46e791342ad7085.jpg",     color: "#1a237e" },
-    { label: "Blanc",         image: "https://i.pinimg.com/1200x/8b/36/46/8b36465511cffe018d0be25543d8294e.jpg",        color: "#f5f5f5" },
-    { label: "Gris lavande",  image: "https://i.pinimg.com/1200x/19/94/6e/19946e508de2ce42909dc9908eb1728d.jpg", color: "#b0a8c8" },
-    { label: "Bleu clair",    image: "https://i.pinimg.com/1200x/f4/2c/af/f42cafb29e4103fcc4f7572a2c854bef.jpg",    color: "#90caf9" },
-  ],
+  image: "Images/coque pink heart.jpeg",
+
+  models: [
+  "AirPods 2",
+  "AirPods 3",
+  "AirPods 4",
+  "AirPods Pro 2",
+  "AirPods Pro 3"
+],
+
   description: [
-    "Protège ton étui AirPods 4 avec style.",
-    "• Compatible AirPods 4ème génération uniquement",
+    "Pour les gamers qui veulent afficher leur passion partout.",
+    "• Motif PlayStation iconique (△ ○ ✕ □)",
     "• Silicone souple anti-choc & anti-rayures",
     "• Accès total au port de charge",
-    "• Grip antidérapant plus de chutes",
-    "• 7 couleurs disponibles au choix",
-    "La protection qui ne compromet pas le style !",
-    "Livraison gratuite à Dakar"
+    "• 4 coloris gaming disponibles",
+    "Level up ton style !",
+    //"Livraison gratuite à Dakar"
+  ]
+},
+  
+  
+{
+  id: 12,
+  name: "Coque AirPods Don't Touch My Pods",
+  price: 2000,
+  category: "coque",
+  image: "Images/coque dont touch.jpeg",
+  models: [
+  "AirPods 2",
+  "AirPods 3",
+  "AirPods 4",
+  "AirPods Pro 2",
+  "AirPods Pro 3"
+],
+  description: [
+    "Pour les gamers qui veulent afficher leur passion partout.",
+    "• Motif PlayStation iconique (△ ○ ✕ □)",
+    "• Silicone souple anti-choc & anti-rayures",
+    "• Accès total au port de charge",
+    "• 4 coloris gaming disponibles",
+    "Level up ton style !",
+    //"Livraison gratuite à Dakar"
   ]
 },
 
-{
-  id: 12,
-  name: "Coque AirPods Pro 2",
-  price: 1500,
-  category: "coque",
-  image: "https://i.pinimg.com/1200x/0f/da/8f/0fda8f86da584b503809569964a4a39d.jpg",
-  variants: [
-    { label: "Noir",         image: "https://www.pinterest.com/pin/1057220081251361712/",       color: "#1a1a1a" },
-    { label: "Rose",         image: "https://i.pinimg.com/736x/a2/27/d0/a227d0ece58465a570feba7a901a0d68.jpg",        color: "#f48fb1" },
-    { label: "Violet",       image: "https://i.pinimg.com/1200x/0f/da/8f/0fda8f86da584b503809569964a4a39d.jpg",      color: "#9c27b0" },
-    { label: "Bleu foncé",   image: "https://i.pinimg.com/1200x/2f/83/d8/2f83d88940292c836cb3d436dbee1797.jpg",    color: "#1a237e" },
-    { label: "Blanc",        image: "https://i.pinimg.com/736x/e1/3c/92/e13c924e556b1f7a46c239b22e6968e1.jpg",       color: "#f5f5f5" },
-    { label: "Gris lavande", image: "https://i.pinimg.com/736x/c8/5e/ec/c85eec672b25ce61688dde370aadaf11.jpg",color: "#b0a8c8" },
-    //{ label: "Gris foncé",   image: "Images/coque-pro2-darkgray.jpg",    color: "#424242" },
-    { label: "Beige",        image: "https://i.pinimg.com/1200x/c1/49/c8/c149c8beaf8842a535de35e4e85ad5c7.jpg",       color: "#d7c4a3" },
-    { label: "Bordeaux",     image: "https://i.pinimg.com/1200x/9e/9b/b3/9e9bb3401425e1178bda25dc0d55ebfa.jpg",        color: "#7b1c2e" },
-  ],
-  description: [
-    "Protège ton étui AirPods Pro 2 avec style.",
-    "• Compatible AirPods Pro 2ème génération uniquement",
-    "• Silicone souple anti-choc & anti-rayures",
-    "• Accès total au port de charge MagSafe",
-    "• Grip antidérapant plus de chutes",
-    "• 9 couleurs disponibles au choix",
-    "La protection qui ne compromet pas le style !",
-    "Livraison gratuite à Dakar"
-  ]
-},
+
 
 {
   id: 13,
-  name: "Coque AirPods 3",
+  name: "Coque AirPods",
   price: 1500,
   category: "coque",
+
   image: "https://i.pinimg.com/1200x/04/56/09/045609645ff8e98ea46e791342ad7085.jpg",
-  variants: [
-    { label: "Noir",         image: "https://i.pinimg.com/1200x/08/59/6a/08596afcbb32f7f177c9ac07353d700e.jpg",       color: "#1a1a1a" },
-    { label: "Rose",         image: "https://i.pinimg.com/736x/a2/27/d0/a227d0ece58465a570feba7a901a0d68.jpg",        color: "#f48fb1" },
-    { label: "Violet",       image: "https://i.pinimg.com/1200x/56/b1/2b/56b12bffdf942dde6b965b050d666153.jpg" },
-    { label: "Bleu foncé",   image: "https://i.pinimg.com/1200x/04/56/09/045609645ff8e98ea46e791342ad7085.jpg",    color: "#1a237e" },
-    { label: "Blanc",        image: "https://i.pinimg.com/1200x/8b/36/46/8b36465511cffe018d0be25543d8294e.jpg",       color: "#f5f5f5" },
-    { label: "Gris lavande", image: "https://i.pinimg.com/1200x/19/94/6e/19946e508de2ce42909dc9908eb1728d.jpg",color: "#b0a8c8" },
-    { label: "Bleu clair",   image: "https://i.pinimg.com/1200x/f4/2c/af/f42cafb29e4103fcc4f7572a2c854bef.jpg",   color: "#90caf9" },
+
+  // Modèles compatibles
+  models: [
+    "AirPods 2",
+    "AirPods 3",
+    "AirPods 4",
+    "AirPods Pro 2",
+    "AirPods Pro 3"
   ],
+
+  // Variantes de couleurs
+  variants: [
+    {
+      label: "Noir",
+      image: "https://i.pinimg.com/1200x/08/59/6a/08596afcbb32f7f177c9ac07353d700e.jpg",
+      color: "#1a1a1a"
+    },
+    {
+      label: "Rose",
+      image: "https://i.pinimg.com/736x/a2/27/d0/a227d0ece58465a570feba7a901a0d68.jpg",
+      color: "#f48fb1"
+    },
+    {
+      label: "Violet",
+      image: "https://i.pinimg.com/1200x/56/b1/2b/56b12bffdf942dde6b965b050d666153.jpg",
+      color: "#9c27b0"
+    },
+    {
+      label: "Bleu foncé",
+      image: "https://i.pinimg.com/1200x/04/56/09/045609645ff8e98ea46e791342ad7085.jpg",
+      color: "#1a237e"
+    },
+    {
+      label: "Blanc",
+      image: "https://i.pinimg.com/1200x/8b/36/46/8b36465511cffe018d0be25543d8294e.jpg",
+      color: "#f5f5f5"
+    },
+    {
+      label: "Gris lavande",
+      image: "https://i.pinimg.com/1200x/19/94/6e/19946e508de2ce42909dc9908eb1728d.jpg",
+      color: "#b0a8c8"
+    },
+    {
+      label: "Bleu clair",
+      image: "https://i.pinimg.com/1200x/f4/2c/af/f42cafb29e4103fcc4f7572a2c854bef.jpg",
+      color: "#90caf9"
+    }
+  ],
+
   description: [
-    "Protège ton étui AirPods 3 avec style.",
-    "• Compatible AirPods 3ème génération uniquement",
-    "• Silicone souple anti-choc & anti-rayures",
-    "• Accès total au port de charge",
-    "• Grip antidérapant  plus de chutes",
+    "Protège tes AirPods avec style et élégance.",
+    "• Compatible avec AirPods 2, AirPods 3, AirPods 4, AirPods Pro 2 et AirPods Pro 3",
+    "• Silicone souple anti-choc et anti-rayures",
+    "• Accès au port de charge",
+    "• Grip antidérapant pour une meilleure prise en main",
     "• 7 couleurs disponibles au choix",
-    "La protection qui ne compromet pas le style !",
-    "Livraison gratuite à Dakar"
+    "• Prix : 1 500 FCFA",
+    "Choisis ton modèle et ta couleur préférée !",
+ //   "Livraison gratuite à Dakar"
   ]
 },
    {
@@ -499,77 +538,11 @@ const PRODUCTS = [
 ]
  },
   
-{
-  id: 22,
-  name: "Coque AirPods Dinosaure avec Porte-Clé",
-  price: 2000,
-  category: "coque",
-  image: "Images/ap case noir.png",
-  variants: [
-    { label: "Vert matcha",   image: "Images/ap case vert.png",   color: "#a8c5a0" },
-    { label: "Rose clair",    image: "Images/ap case rose.png",    color: "#f8bbd0" },
-    { label: "Violet clair",  image: "Images/ap case violet.png",  color: "#ce93d8" },
-    { label: "Gris foncé",    image: "Images/ap case noir.png",    color: "#546e7a" },
-    { label: "Bleu clair",    image: "Images/ap case bleu.png",    color: "#90caf9" },
-  ],
-  description: [
-    "Protège ton étui AirPods avec un motif dinosaure adorable.",
-    "• Porte-clé intégré pour ne jamais le perdre",
-    "• Silicone souple anti-choc & anti-rayures",
-    "• Accès total au port de charge",
-    "• 5 couleurs pastel disponibles au choix",
-    "Mignon, pratique et stylé !",
-   // "Livraison gratuite à Dakar"
-  ]
-},
 
-{
-  id: 23,
-  name: "Coque AirPods fleurs avec Lanière",
-  price: 2000,
-  category: "coque",
-  image: "Images/ap case bleu laniere.png",
-  variants: [
-    { label: "Vert matcha",   image: "Images/ap case vert laniere.png",   color: "#a8c5a0" },
-    { label: "Rose clair",    image: "Images/ap case rose laniére.png",    color: "#f8bbd0" },
-    { label: "Violet clair",  image: "Images/ap case violet laniere.png",  color: "#ce93d8" },
-    { label: "Gris foncé",    image: "Images/ap case noir laniere.png",    color: "#546e7a" },
-    { label: "Bleu clair",    image: "Images/ap case bleu laniere.png",    color: "#90caf9" },
-  ],
-  description: [
-    "Protège ton étui AirPods avec un motif dinosaure adorable.",
-    "• Lanière incluse pour le porter autour du cou ou du sac",
-    "• Silicone souple anti-choc & anti-rayures",
-    "• Accès total au port de charge",
-    "• 5 couleurs pastel disponibles au choix",
-    "Le combo style & praticité !",
-    //"Livraison gratuite à Dakar"
-  ]
-},
 
-{
-  id: 24,
-  name: "Coque AirPods PlayStation",
-  price: 2000,
-  category: "coque",
-  image: "Images/ap case playstation noir.png",
-  variants: [
-    { label: "Gris foncé",    image: "Images/ap case playstation noir.png",    color: "#546e7a" },
-    { label: "Blanc",         image: "Images/ap case playstation blanc.png",   color: "#f5f5f5" },
-    { label: "Rose",          image: "Images/ap case playstation rose.png",    color: "#f48fb1" },
-    { label: "Violet nuit",   image: "Images/ap case playstation violet.png",  color: "#4a148c" },
-    //{ label: "Bleu foncé",    image: "Images/coque playstation bleu.jpg",    color: "#1a237e" },
-  ],
-  description: [
-    "Pour les gamers qui veulent afficher leur passion partout.",
-    "• Motif PlayStation iconique (△ ○ ✕ □)",
-    "• Silicone souple anti-choc & anti-rayures",
-    "• Accès total au port de charge",
-    "• 4 coloris gaming disponibles",
-    "Level up ton style !",
-    //"Livraison gratuite à Dakar"
-  ]
-},
+
+
+
   
   {
     id: 25,
