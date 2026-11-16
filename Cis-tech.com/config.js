@@ -259,7 +259,7 @@ const PRODUCTS = [
   image: "Images/coque pink heart.jpeg",
 
   models: [
-  "AirPods 2",
+  //"AirPods 2",
   "AirPods 3",
   "AirPods 4",
   "AirPods Pro 2",
@@ -284,7 +284,7 @@ const PRODUCTS = [
   category: "coque",
   image: "Images/coque dont touch.jpeg",
   models: [
-  "AirPods 2",
+  //"AirPods 2",
   "AirPods 3",
   "AirPods 4",
   "AirPods Pro 2",
@@ -304,7 +304,7 @@ const PRODUCTS = [
 
 {
   id: 13,
-  name: "Coque AirPods",
+  name: "Coque AirPods Basics",
   price: 1500,
   category: "coque",
 
@@ -312,7 +312,7 @@ const PRODUCTS = [
 
   // Modèles compatibles
   models: [
-    "AirPods 2",
+    //"AirPods 2",
     "AirPods 3",
     "AirPods 4",
     "AirPods Pro 2",
